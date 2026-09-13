@@ -1,22 +1,32 @@
 {
-  "name": "volta-base-template",
+  "name": "phenomcomm",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "ingest": "python3 scripts/ingest_sources.py",
+    "media:download": "python3 scripts/download_media.py"
   },
   "dependencies": {
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest"
+    "next": "^16.3.5",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "sharp": "^0.35.4"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.5.1",
     "@types/react": "^19.2.14",
     "autoprefixer": "^10.0.0",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.3.5",
     "postcss": "^8.0.0",
+    "prettier": "^3.9.6",
     "tailwindcss": "^3.0.0",
     "typescript": "^5.0.0"
   }

@@ -1,0 +1,15 @@
+{
+  "files": 47,
+  "totalSourceBytes": 140397,
+  "kinds": {
+    "attachment": 35,
+    "document": 2,
+    "page": 6,
+    "retailer": 1,
+    "sitemap": 3
+  },
+  "uniqueMediaUrls": 100,
+  "businessMediaUrls": 79,
+  "businessMediaFamilies": 41,
+  "note": "URL/family deduplication only. Content hashes and media optimization follow download. Retailer UI, ads, recommendations, tracking pixels and unrelated products are excluded from the planned site."
+}

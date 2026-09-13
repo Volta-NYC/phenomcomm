@@ -1,0 +1,65 @@
+{
+  "paulette-cunningham": {
+    "src": "/images/paulette-cunningham.webp",
+    "width": 1254,
+    "height": 1254,
+    "source": "assets/supplied/paulette-cunningham-preferred.png",
+    "bytes": 80576
+  },
+  "workshop": {
+    "src": "/images/workshop.webp",
+    "width": 1600,
+    "height": 1200,
+    "source": "assets/source-media/IMG_5415-scaled.jpg",
+    "bytes": 209678
+  },
+  "speaking": {
+    "src": "/images/speaking.webp",
+    "width": 430,
+    "height": 321,
+    "source": "assets/source-media/CAO-me-1.jpg",
+    "bytes": 15914
+  },
+  "team-workshop": {
+    "src": "/images/team-workshop.webp",
+    "width": 1600,
+    "height": 1200,
+    "source": "assets/source-media/DSC08838-scaled.jpg",
+    "bytes": 204368
+  },
+  "airport-team": {
+    "src": "/images/airport-team.webp",
+    "width": 1101,
+    "height": 1280,
+    "source": "assets/source-media/1779035701085.jpg",
+    "bytes": 198648
+  },
+  "paulette-on-stage": {
+    "src": "/images/paulette-on-stage.webp",
+    "width": 1200,
+    "height": 1600,
+    "source": "assets/source-media/DSC08848-scaled.jpg",
+    "bytes": 188240
+  },
+  "book-cover": {
+    "src": "/images/book-cover.webp",
+    "width": 1003,
+    "height": 1600,
+    "source": "assets/source-media/Dont-Let-Your-Phone.-book-cover.jpg",
+    "bytes": 25508
+  },
+  "mwbe": {
+    "src": "/images/mwbe.webp",
+    "width": 1280,
+    "height": 720,
+    "source": "assets/source-media/MWBE-CERTIFIED.png",
+    "bytes": 22402
+  },
+  "nyc-mwbe": {
+    "src": "/images/nyc-mwbe.webp",
+    "width": 700,
+    "height": 207,
+    "source": "assets/source-media/nyc-mwbe.webp",
+    "bytes": 20556
+  }
+}

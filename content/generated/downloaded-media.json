@@ -1,0 +1,1085 @@
+[
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/1-HEADER-PIC_clay-banks-Ox6SW103KtM-unsplash-300x155.jpg",
+    "filename": "1-HEADER-PIC_clay-banks-Ox6SW103KtM-unsplash-300x155.jpg",
+    "family": "1-HEADER-PIC_clay-banks-Ox6SW103KtM-unsplash.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_home_1-header-pic_clay-banks-ox6sw103ktm-unsplash_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/1-HEADER-PIC_clay-banks-Ox6SW103KtM-unsplash-300x155.jpg",
+    "bytes": 8891,
+    "sha256": "4c66c47c2a55850b1ec9c9687aaea00dc6c0735252bd12bd1a9cd1ca6f1cf57d"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/1-HEADER-PIC_clay-banks-Ox6SW103KtM-unsplash.jpg",
+    "filename": "1-HEADER-PIC_clay-banks-Ox6SW103KtM-unsplash.jpg",
+    "family": "1-HEADER-PIC_clay-banks-Ox6SW103KtM-unsplash.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_.md",
+      "raw messy data/www.phenomcomm.com_home_1-header-pic_clay-banks-ox6sw103ktm-unsplash_.md",
+      "raw messy data/www.phenomcomm.com_page-sitemap.xml.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/1-HEADER-PIC_clay-banks-Ox6SW103KtM-unsplash.jpg",
+    "bytes": 60689,
+    "sha256": "5cd3daa6f03b55f8d7c4ad2bec1407ef7d10d83a70c0d01f0d1422bd5700385a"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/DSC08838-300x225.jpg",
+    "filename": "DSC08838-300x225.jpg",
+    "family": "DSC08838.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_about-us_dsc08838-2_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/DSC08838-300x225.jpg",
+    "bytes": 41590,
+    "sha256": "2c671272f613ce6b8e4d275cb7972e05475f42514935c9b6b7a653d5339ba2ef"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/DSC08838-scaled.jpg",
+    "filename": "DSC08838-scaled.jpg",
+    "family": "DSC08838.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_about-us_dsc08838-2_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/DSC08838-scaled.jpg",
+    "bytes": 718398,
+    "sha256": "948b3ab0b6913adc7d125851534b3c124616ecb46d842819938d8e72e4b4080a"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/DSC08848-225x300.jpg",
+    "filename": "DSC08848-225x300.jpg",
+    "family": "DSC08848.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_about-us_dsc08848-2_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/DSC08848-225x300.jpg",
+    "bytes": 40967,
+    "sha256": "762f8d1f1e8d60e7b52059ae05d1ea087321a11ea0f3766062625f29a38625c7"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/DSC08848-scaled.jpg",
+    "filename": "DSC08848-scaled.jpg",
+    "family": "DSC08848.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_about-us_.md",
+      "raw messy data/www.phenomcomm.com_about-us_dsc08848-2_.md",
+      "raw messy data/www.phenomcomm.com_page-sitemap.xml.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/DSC08848-scaled.jpg",
+    "bytes": 681466,
+    "sha256": "080127466054026649f3edbaca9663df6dab989f5b2ced32df18967600532ab3"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/DSC08920-225x300.jpg",
+    "filename": "DSC08920-225x300.jpg",
+    "family": "DSC08920.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_about-us_dsc08920_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/DSC08920-225x300.jpg",
+    "bytes": 42672,
+    "sha256": "180f133a182b05de29d9fe4af1a31ef502058997503d814e0e10714aea341a58"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/DSC08920-scaled.jpg",
+    "filename": "DSC08920-scaled.jpg",
+    "family": "DSC08920.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_about-us_dsc08920_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/DSC08920-scaled.jpg",
+    "bytes": 729747,
+    "sha256": "7e8eb943315bb498ccc7f4209518a1efa4bb4918eacb48f69ca1fa1eae5604b2"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/Paulette12192020byMichaelDantzler-4_-200x300.jpg",
+    "filename": "Paulette12192020byMichaelDantzler-4_-200x300.jpg",
+    "family": "Paulette12192020byMichaelDantzler-4_.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_about-us_paulette12192020bymichaeldantzler-4__.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/Paulette12192020byMichaelDantzler-4_-200x300.jpg",
+    "bytes": 31651,
+    "sha256": "4869d8f413882e6d1de8ff43aa9d3dfe497f51be5ef736b1f5335a27c590250f"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/Paulette12192020byMichaelDantzler-4_-683x1024.jpg",
+    "filename": "Paulette12192020byMichaelDantzler-4_-683x1024.jpg",
+    "family": "Paulette12192020byMichaelDantzler-4_.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_about-us_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/Paulette12192020byMichaelDantzler-4_-683x1024.jpg",
+    "bytes": 80884,
+    "sha256": "ca8e4982057389d00c70ef8a8cfd7a66c2193113fff9d5d4652c3593bd8c0825"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/Paulette12192020byMichaelDantzler-4_-scaled.jpg",
+    "filename": "Paulette12192020byMichaelDantzler-4_-scaled.jpg",
+    "family": "Paulette12192020byMichaelDantzler-4_.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_about-us_paulette12192020bymichaeldantzler-4__.md",
+      "raw messy data/www.phenomcomm.com_page-sitemap.xml.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/Paulette12192020byMichaelDantzler-4_-scaled.jpg",
+    "bytes": 275106,
+    "sha256": "10d85bd0102ca714d1c8fe4d9d2af9bb17bdad78e700db94725802078ea206a6"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/PauletteHeadshots03012020byMichaelDantzler-2_-240x300.jpg",
+    "filename": "PauletteHeadshots03012020byMichaelDantzler-2_-240x300.jpg",
+    "family": "PauletteHeadshots03012020byMichaelDantzler-2_.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_about-us_pauletteheadshots03012020bymichaeldantzler-2__.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/PauletteHeadshots03012020byMichaelDantzler-2_-240x300.jpg",
+    "bytes": 30142,
+    "sha256": "938292d98e6424b550a7e2abdd332bf3b5e1b6def6de4c32a289262e52cdab4a"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/PauletteHeadshots03012020byMichaelDantzler-2_-scaled.jpg",
+    "filename": "PauletteHeadshots03012020byMichaelDantzler-2_-scaled.jpg",
+    "family": "PauletteHeadshots03012020byMichaelDantzler-2_.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_about-us_pauletteheadshots03012020bymichaeldantzler-2__.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/PauletteHeadshots03012020byMichaelDantzler-2_-scaled.jpg",
+    "bytes": 502281,
+    "sha256": "0363b3d810786f1b69ac1202edc5ec4beedc5faf823d0054f74592f3085062b8"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/alvaro-reyes-qWwpHwip31M-unsplash-300x200.jpg",
+    "filename": "alvaro-reyes-qWwpHwip31M-unsplash-300x200.jpg",
+    "family": "alvaro-reyes-qWwpHwip31M-unsplash.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_alvaro-reyes-qwwphwip31m-unsplash_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/alvaro-reyes-qWwpHwip31M-unsplash-300x200.jpg",
+    "bytes": 13472,
+    "sha256": "f531767c8f6dfd0bf455b6d9d257a0f6afd453dcb130d5d0057f0c6c0256f0bb"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/alvaro-reyes-qWwpHwip31M-unsplash-scaled.jpg",
+    "filename": "alvaro-reyes-qWwpHwip31M-unsplash-scaled.jpg",
+    "family": "alvaro-reyes-qWwpHwip31M-unsplash.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_alvaro-reyes-qwwphwip31m-unsplash_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/alvaro-reyes-qWwpHwip31M-unsplash-scaled.jpg",
+    "bytes": 279114,
+    "sha256": "feeb8136b209b0c48ab8b56e886f0f4d8b64ffd5b9dffa3c0bb6d15e186b64c2"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/andre-hunter-5otlbgWJlLs-unsplash-300x200.jpg",
+    "filename": "andre-hunter-5otlbgWJlLs-unsplash-300x200.jpg",
+    "family": "andre-hunter-5otlbgWJlLs-unsplash.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_andre-hunter-5otlbgwjlls-unsplash_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/andre-hunter-5otlbgWJlLs-unsplash-300x200.jpg",
+    "bytes": 17452,
+    "sha256": "7563f05543100e4424525f6a3b18c7f7db2c7445e05001c9de29bfe775fe8d2b"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/andre-hunter-5otlbgWJlLs-unsplash-scaled.jpg",
+    "filename": "andre-hunter-5otlbgWJlLs-unsplash-scaled.jpg",
+    "family": "andre-hunter-5otlbgWJlLs-unsplash.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_andre-hunter-5otlbgwjlls-unsplash_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/andre-hunter-5otlbgWJlLs-unsplash-scaled.jpg",
+    "bytes": 548227,
+    "sha256": "637a8d2befea3812af6d2805a4fc91cb73dcf4cf5665893a1f37a767ea974ef9"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/anthony-delanoix-b5POxb2aL9o-unsplash-300x200.jpg",
+    "filename": "anthony-delanoix-b5POxb2aL9o-unsplash-300x200.jpg",
+    "family": "anthony-delanoix-b5POxb2aL9o-unsplash.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_about-us_anthony-delanoix-b5poxb2al9o-unsplash_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/anthony-delanoix-b5POxb2aL9o-unsplash-300x200.jpg",
+    "bytes": 17332,
+    "sha256": "4f80696a3aa0d3e13beb64439e1442706f3df0cc3a1867a0bffe9f3ccb6f5c3d"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/anthony-delanoix-b5POxb2aL9o-unsplash-scaled.jpg",
+    "filename": "anthony-delanoix-b5POxb2aL9o-unsplash-scaled.jpg",
+    "family": "anthony-delanoix-b5POxb2aL9o-unsplash.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_about-us_anthony-delanoix-b5poxb2al9o-unsplash_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/anthony-delanoix-b5POxb2aL9o-unsplash-scaled.jpg",
+    "bytes": 892146,
+    "sha256": "86b94e89fdf1e56843c227a7df6411c278851124aa70b0845707549c7fed557a"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/blake-wisz-GFrBMipOd_E-unsplash-1-300x200.jpg",
+    "filename": "blake-wisz-GFrBMipOd_E-unsplash-1-300x200.jpg",
+    "family": "blake-wisz-GFrBMipOd_E-unsplash-1.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_blake-wisz-gfrbmipod_e-unsplash-1_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/blake-wisz-GFrBMipOd_E-unsplash-1-300x200.jpg",
+    "bytes": 21603,
+    "sha256": "114a2d951d706c7961714e20b613d028029186e01aeb28906665e2e17462d70f"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/blake-wisz-GFrBMipOd_E-unsplash-1-scaled.jpg",
+    "filename": "blake-wisz-GFrBMipOd_E-unsplash-1-scaled.jpg",
+    "family": "blake-wisz-GFrBMipOd_E-unsplash-1.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_blake-wisz-gfrbmipod_e-unsplash-1_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/blake-wisz-GFrBMipOd_E-unsplash-1-scaled.jpg",
+    "bytes": 617517,
+    "sha256": "fdd2b04f4a28b34577b39330c91a9d4d26fa09077a578bafb067575cabb9ab11"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/blake-wisz-GFrBMipOd_E-unsplash-300x200.jpg",
+    "filename": "blake-wisz-GFrBMipOd_E-unsplash-300x200.jpg",
+    "family": "blake-wisz-GFrBMipOd_E-unsplash.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_blake-wisz-gfrbmipod_e-unsplash_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/blake-wisz-GFrBMipOd_E-unsplash-1-300x200.jpg",
+    "bytes": 21603,
+    "sha256": "114a2d951d706c7961714e20b613d028029186e01aeb28906665e2e17462d70f"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/blake-wisz-GFrBMipOd_E-unsplash-scaled.jpg",
+    "filename": "blake-wisz-GFrBMipOd_E-unsplash-scaled.jpg",
+    "family": "blake-wisz-GFrBMipOd_E-unsplash.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_blake-wisz-gfrbmipod_e-unsplash_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/blake-wisz-GFrBMipOd_E-unsplash-1-scaled.jpg",
+    "bytes": 617517,
+    "sha256": "fdd2b04f4a28b34577b39330c91a9d4d26fa09077a578bafb067575cabb9ab11"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/erik-mclean-aielvGxZB0g-unsplash-300x200.jpg",
+    "filename": "erik-mclean-aielvGxZB0g-unsplash-300x200.jpg",
+    "family": "erik-mclean-aielvGxZB0g-unsplash.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_erik-mclean-aielvgxzb0g-unsplash_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/erik-mclean-aielvGxZB0g-unsplash-300x200.jpg",
+    "bytes": 11322,
+    "sha256": "22a98786ec18319ccdaf18161fa225b4dc3e205e80b41724fd839ee4c792edba"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/erik-mclean-aielvGxZB0g-unsplash-scaled.jpg",
+    "filename": "erik-mclean-aielvGxZB0g-unsplash-scaled.jpg",
+    "family": "erik-mclean-aielvGxZB0g-unsplash.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_erik-mclean-aielvgxzb0g-unsplash_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/erik-mclean-aielvGxZB0g-unsplash-scaled.jpg",
+    "bytes": 204144,
+    "sha256": "2ee640a8cfedacbeec6e2f9b1f5f7159ff6ed5ea27de38f1e17c3c6bcc666658"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/iStock-1065782522-300x200.jpg",
+    "filename": "iStock-1065782522-300x200.jpg",
+    "family": "iStock-1065782522.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_unhappy-and-disappointed-customer-giving-low-rating-and-negative-feedback-in-survey-poll-or-questionnaire-sad-and-dissatisfied-man-giving-review-about-service-quality_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/iStock-1065782522-300x200.jpg",
+    "bytes": 23572,
+    "sha256": "b0bd831278401af75044a28cfabc40ddb2ee3dcee81f61c5dc2d0b9c9c3f5684"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/iStock-1065782522.jpg",
+    "filename": "iStock-1065782522.jpg",
+    "family": "iStock-1065782522.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_unhappy-and-disappointed-customer-giving-low-rating-and-negative-feedback-in-survey-poll-or-questionnaire-sad-and-dissatisfied-man-giving-review-about-service-quality_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/iStock-1065782522.jpg",
+    "bytes": 330346,
+    "sha256": "51b70d8d10a1ae28e20da8516dd046200bbeb97bbc2893eea47af54243be925f"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/iStock-1363841745-300x169.jpg",
+    "filename": "iStock-1363841745-300x169.jpg",
+    "family": "iStock-1363841745.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_black-female-corporate-office-worker-feels-stress-sick-frustration-sick-works-on-computer-accountant-feeling-project-pressure-has-headache-massages-her-head-works-with-statistics-has-bad-day_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/iStock-1363841745-300x169.jpg",
+    "bytes": 33964,
+    "sha256": "e5de2a91f6d5a610a21453e6ab16c4def2e36880da6ce14c220437a171669e43"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/iStock-1363841745.jpg",
+    "filename": "iStock-1363841745.jpg",
+    "family": "iStock-1363841745.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_black-female-corporate-office-worker-feels-stress-sick-frustration-sick-works-on-computer-accountant-feeling-project-pressure-has-headache-massages-her-head-works-with-statistics-has-bad-day_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/iStock-1363841745.jpg",
+    "bytes": 562376,
+    "sha256": "6b2c693c4faac0f269b5e76debedf0db0608a7c5e64776009bb88d74dd1d8656"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/iStock-1364004798-300x169.jpg",
+    "filename": "iStock-1364004798-300x169.jpg",
+    "family": "iStock-1364004798.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_young-black-woman-office-worker-uses-laptop-feels-sudden-burst-of-pain-headache-migraine-overworked-accountant-feeling-project-pressure-stress-massages-her-head-temples-front-view-portrait_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/iStock-1364004798-300x169.jpg",
+    "bytes": 31570,
+    "sha256": "0e5df5fc158ff1ee6d270803d069bc61ca84eb8f9b3b83a7ac374d0ee5084867"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/iStock-1364004798.jpg",
+    "filename": "iStock-1364004798.jpg",
+    "family": "iStock-1364004798.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_young-black-woman-office-worker-uses-laptop-feels-sudden-burst-of-pain-headache-migraine-overworked-accountant-feeling-project-pressure-stress-massages-her-head-temples-front-view-portrait_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/iStock-1364004798.jpg",
+    "bytes": 446928,
+    "sha256": "c1e590412cea1693aa741a70d642d6a53c551dd50bc713fcc48c5461ffb33462"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/iStock-1447969085-300x151.jpg",
+    "filename": "iStock-1447969085-300x151.jpg",
+    "family": "iStock-1447969085.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_business-people-using-smartphone-and-pressing-review-popup-on-visual-screen-customer-review-by-five-star-feedback-positive-customer-feedback-testimonial_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/iStock-1447969085-300x151.jpg",
+    "bytes": 14290,
+    "sha256": "6418310dc15edacdca69e1f9f32aacf059be8c9d412c89946e140f35a731eaf9"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/iStock-1447969085.jpg",
+    "filename": "iStock-1447969085.jpg",
+    "family": "iStock-1447969085.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_business-people-using-smartphone-and-pressing-review-popup-on-visual-screen-customer-review-by-five-star-feedback-positive-customer-feedback-testimonial_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/iStock-1447969085.jpg",
+    "bytes": 340646,
+    "sha256": "021bef09429f41fdc2c1be4b6cb603cb2efb681e91f66f3ec967afff2ce1e2f3"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/matthew-hamilton-fIywSGHYLYM-unsplash-200x300.jpg",
+    "filename": "matthew-hamilton-fIywSGHYLYM-unsplash-200x300.jpg",
+    "family": "matthew-hamilton-fIywSGHYLYM-unsplash.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_about-us_matthew-hamilton-fiywsghylym-unsplash_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/matthew-hamilton-fIywSGHYLYM-unsplash-200x300.jpg",
+    "bytes": 13984,
+    "sha256": "6106a750b9dc5e5aaf9109c15c0809869feb7f8b54f2f4e0afece614a31888c3"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/matthew-hamilton-fIywSGHYLYM-unsplash-scaled.jpg",
+    "filename": "matthew-hamilton-fIywSGHYLYM-unsplash-scaled.jpg",
+    "family": "matthew-hamilton-fIywSGHYLYM-unsplash.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_about-us_matthew-hamilton-fiywsghylym-unsplash_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/matthew-hamilton-fIywSGHYLYM-unsplash-scaled.jpg",
+    "bytes": 360572,
+    "sha256": "6f738938241717d71868d916266b659b204fd1af9ddbf1e79eb59ec4dbba1674"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/rineshkumar-ghirao-UdDjFekHQuk-unsplash-300x200.jpg",
+    "filename": "rineshkumar-ghirao-UdDjFekHQuk-unsplash-300x200.jpg",
+    "family": "rineshkumar-ghirao-UdDjFekHQuk-unsplash.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_rineshkumar-ghirao-uddjfekhquk-unsplash_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/rineshkumar-ghirao-UdDjFekHQuk-unsplash-300x200.jpg",
+    "bytes": 15545,
+    "sha256": "a0c79b3073bf39c2597a0ff396af1c1f7966dc57ff8c01c1b8752a0184d95456"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/rineshkumar-ghirao-UdDjFekHQuk-unsplash-scaled.jpg",
+    "filename": "rineshkumar-ghirao-UdDjFekHQuk-unsplash-scaled.jpg",
+    "family": "rineshkumar-ghirao-UdDjFekHQuk-unsplash.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_rineshkumar-ghirao-uddjfekhquk-unsplash_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/rineshkumar-ghirao-UdDjFekHQuk-unsplash-scaled.jpg",
+    "bytes": 401077,
+    "sha256": "ed2945abe2282317ae82ea52b8ea141b7027e52dadf80289fd51b0f1a65cdaae"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/steve-johnson-Kr8Tc8Rugdk-unsplash-300x200.jpg",
+    "filename": "steve-johnson-Kr8Tc8Rugdk-unsplash-300x200.jpg",
+    "family": "steve-johnson-Kr8Tc8Rugdk-unsplash.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_steve-johnson-kr8tc8rugdk-unsplash_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/steve-johnson-Kr8Tc8Rugdk-unsplash-300x200.jpg",
+    "bytes": 15214,
+    "sha256": "8fcb118912639496e74630487d3afad559212329009f62ffe65bb7ea7595a06f"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/steve-johnson-Kr8Tc8Rugdk-unsplash-scaled.jpg",
+    "filename": "steve-johnson-Kr8Tc8Rugdk-unsplash-scaled.jpg",
+    "family": "steve-johnson-Kr8Tc8Rugdk-unsplash.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_steve-johnson-kr8tc8rugdk-unsplash_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/steve-johnson-Kr8Tc8Rugdk-unsplash-scaled.jpg",
+    "bytes": 320095,
+    "sha256": "95feb2a81171364237b459a1d32169c02defe9b86b24f9f96b3015def0ae14d1"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/towfiqu-barbhuiya-NwIExsCqXdM-unsplash-300x200.jpg",
+    "filename": "towfiqu-barbhuiya-NwIExsCqXdM-unsplash-300x200.jpg",
+    "family": "towfiqu-barbhuiya-NwIExsCqXdM-unsplash.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_towfiqu-barbhuiya-nwiexscqxdm-unsplash_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/towfiqu-barbhuiya-NwIExsCqXdM-unsplash-300x200.jpg",
+    "bytes": 12498,
+    "sha256": "c183bcc50be0e656b6e624798b00f02df2531d01af9ebd32b6630ec98012fba5"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/towfiqu-barbhuiya-NwIExsCqXdM-unsplash-scaled.jpg",
+    "filename": "towfiqu-barbhuiya-NwIExsCqXdM-unsplash-scaled.jpg",
+    "family": "towfiqu-barbhuiya-NwIExsCqXdM-unsplash.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_towfiqu-barbhuiya-nwiexscqxdm-unsplash_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/towfiqu-barbhuiya-NwIExsCqXdM-unsplash-scaled.jpg",
+    "bytes": 214706,
+    "sha256": "3ab56347287ecea45797bcd512bf805051c325d71092bf8b2c67f607c4621191"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/towfiqu-barbhuiya-bwOAixLG0uc-unsplash-300x200.jpg",
+    "filename": "towfiqu-barbhuiya-bwOAixLG0uc-unsplash-300x200.jpg",
+    "family": "towfiqu-barbhuiya-bwOAixLG0uc-unsplash.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_get-started_towfiqu-barbhuiya-bwoaixlg0uc-unsplash_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/towfiqu-barbhuiya-bwOAixLG0uc-unsplash-300x200.jpg",
+    "bytes": 11262,
+    "sha256": "f28ba283bfac927f1aa509b4444316cf9471dc45aff402a7c86521c0cf33208d"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/towfiqu-barbhuiya-bwOAixLG0uc-unsplash-scaled.jpg",
+    "filename": "towfiqu-barbhuiya-bwOAixLG0uc-unsplash-scaled.jpg",
+    "family": "towfiqu-barbhuiya-bwOAixLG0uc-unsplash.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_get-started_towfiqu-barbhuiya-bwoaixlg0uc-unsplash_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/towfiqu-barbhuiya-bwOAixLG0uc-unsplash-scaled.jpg",
+    "bytes": 216437,
+    "sha256": "09237c6bdeba35dda5b1eb451a31bc512c9b09568464b907f75bffd78d28bcf8"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/ux-indonesia-qC2n6RQU4Vw-unsplash-300x200.jpg",
+    "filename": "ux-indonesia-qC2n6RQU4Vw-unsplash-300x200.jpg",
+    "family": "ux-indonesia-qC2n6RQU4Vw-unsplash.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_ux-indonesia-qc2n6rqu4vw-unsplash_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/ux-indonesia-qC2n6RQU4Vw-unsplash-300x200.jpg",
+    "bytes": 18450,
+    "sha256": "1fa6a28b94d3d94bf00bc0a4cb241fc250207b3d3905b8586c62a0d408ee52e6"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/ux-indonesia-qC2n6RQU4Vw-unsplash-scaled.jpg",
+    "filename": "ux-indonesia-qC2n6RQU4Vw-unsplash-scaled.jpg",
+    "family": "ux-indonesia-qC2n6RQU4Vw-unsplash.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_ux-indonesia-qc2n6rqu4vw-unsplash_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/ux-indonesia-qC2n6RQU4Vw-unsplash-scaled.jpg",
+    "bytes": 430129,
+    "sha256": "f0d3625e6a9d77fd493c79aa161d286aaf3c7cb7339e52f3357a6344fdf681cf"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/yasamine-june-wh9Cbrl9yGY-unsplash-199x300.jpg",
+    "filename": "yasamine-june-wh9Cbrl9yGY-unsplash-199x300.jpg",
+    "family": "yasamine-june-wh9Cbrl9yGY-unsplash.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_yasamine-june-wh9cbrl9ygy-unsplash_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/yasamine-june-wh9Cbrl9yGY-unsplash-199x300.jpg",
+    "bytes": 13175,
+    "sha256": "603602d5e39cc142b2c6a9e9e268d07f4bf8df2eac1fc1e79d04043f4965e390"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/yasamine-june-wh9Cbrl9yGY-unsplash-scaled.jpg",
+    "filename": "yasamine-june-wh9Cbrl9yGY-unsplash-scaled.jpg",
+    "family": "yasamine-june-wh9Cbrl9yGY-unsplash.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_yasamine-june-wh9cbrl9ygy-unsplash_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/yasamine-june-wh9Cbrl9yGY-unsplash-scaled.jpg",
+    "bytes": 661895,
+    "sha256": "aa49ffce4bd54b373111057f7f61d4cdd30be855cbb794c19e0b81a5bcf63586"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/yasamine-june-wh9Cbrl9yGY-unsplash_cropped-300x203.jpg",
+    "filename": "yasamine-june-wh9Cbrl9yGY-unsplash_cropped-300x203.jpg",
+    "family": "yasamine-june-wh9Cbrl9yGY-unsplash_cropped.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_yasamine-june-wh9cbrl9ygy-unsplash_cropped_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/yasamine-june-wh9Cbrl9yGY-unsplash_cropped-300x203.jpg",
+    "bytes": 10158,
+    "sha256": "ecad4179869b64f3fda163b3ff56b1fcd0274b7d98eaf37bee9a430ec6803bd1"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/02/yasamine-june-wh9Cbrl9yGY-unsplash_cropped.jpg",
+    "filename": "yasamine-june-wh9Cbrl9yGY-unsplash_cropped.jpg",
+    "family": "yasamine-june-wh9Cbrl9yGY-unsplash_cropped.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_yasamine-june-wh9cbrl9ygy-unsplash_cropped_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/yasamine-june-wh9Cbrl9yGY-unsplash_cropped.jpg",
+    "bytes": 20584,
+    "sha256": "0d797dc14b53bc508dd30362fede46dbb1edc4df12861f3a02bcabb750b4c0b0"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/12/MWBE-CERTIFIED-1024x576.png",
+    "filename": "MWBE-CERTIFIED-1024x576.png",
+    "family": "MWBE-CERTIFIED.png",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_about-us_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/MWBE-CERTIFIED-1024x576.png",
+    "bytes": 121577,
+    "sha256": "a710f4313b3fbaa9a631eb5c4fb78f009085c183911f3994269edd97c35eb675"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/12/MWBE-CERTIFIED-300x169.png",
+    "filename": "MWBE-CERTIFIED-300x169.png",
+    "family": "MWBE-CERTIFIED.png",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_home_mwbe-certified_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/MWBE-CERTIFIED-300x169.png",
+    "bytes": 18969,
+    "sha256": "b2405fceebd1c25d16f5df6008034bbeeab013acc0e241486dfd7f255cf35639"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/12/MWBE-CERTIFIED.png",
+    "filename": "MWBE-CERTIFIED.png",
+    "family": "MWBE-CERTIFIED.png",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_home_mwbe-certified_.md",
+      "raw messy data/www.phenomcomm.com_page-sitemap.xml.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/MWBE-CERTIFIED.png",
+    "bytes": 174449,
+    "sha256": "e13523e2ce686a797c2ecfb4c12ac5113692e536ce31d3812be741bbf900296f"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/12/nyc-mwbe-300x89.webp",
+    "filename": "nyc-mwbe-300x89.webp",
+    "family": "nyc-mwbe.webp",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_home_nyc-mwbe_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/nyc-mwbe-300x89.webp",
+    "bytes": 21692,
+    "sha256": "189bb761a5f01db31e6240ca91748a9887ae27dda6bb6b6afe6e0644018356f2"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2024/12/nyc-mwbe.webp",
+    "filename": "nyc-mwbe.webp",
+    "family": "nyc-mwbe.webp",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_about-us_.md",
+      "raw messy data/www.phenomcomm.com_home_nyc-mwbe_.md",
+      "raw messy data/www.phenomcomm.com_page-sitemap.xml.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/nyc-mwbe.webp",
+    "bytes": 54578,
+    "sha256": "70a1d42e6dfd69192bd39bb31f84a75f8f3b4beee689b61d6d529ee0c500e969"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2025/02/iStock-1424987910-300x200.jpg",
+    "filename": "iStock-1424987910-300x200.jpg",
+    "family": "iStock-1424987910.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_edu_coworkers-with-stacked-hands-at-the-office_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/iStock-1424987910-300x200.jpg",
+    "bytes": 32119,
+    "sha256": "44b8373c5a3d24f334c84559471bf48944e5a30d1df4d1565ed985bfd9f4e56f"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2025/02/iStock-1424987910.jpg",
+    "filename": "iStock-1424987910.jpg",
+    "family": "iStock-1424987910.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_edu_coworkers-with-stacked-hands-at-the-office_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/iStock-1424987910.jpg",
+    "bytes": 559106,
+    "sha256": "79924b5150d810e805ee15a6f17cccc2aadfef2b49f9624f2e803c1592e29703"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2026/07/1779035701085-881x1024.jpg",
+    "filename": "1779035701085-881x1024.jpg",
+    "family": "1779035701085.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_about-us_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/1779035701085-881x1024.jpg",
+    "bytes": 141231,
+    "sha256": "dce442617e9caacb843f58256771013d3d57b6f9fa90c73524d8c94b110ad15b"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2026/07/1779035701085.jpg",
+    "filename": "1779035701085.jpg",
+    "family": "1779035701085.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_page-sitemap.xml.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/1779035701085.jpg",
+    "bytes": 315714,
+    "sha256": "c82047394f32e3ab7bbbc5c06446e71d5583f8f2753f98e33e3f4cd118732ed6"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2026/07/CAO-me-1-300x224.jpg",
+    "filename": "CAO-me-1-300x224.jpg",
+    "family": "CAO-me-1.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_cao-me-2_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/CAO-me-1-300x224.jpg",
+    "bytes": 11372,
+    "sha256": "9c8b9877f789119452ac0aa603b973a72b7e2b7b3ec7078a6685939570d1bdfd"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2026/07/CAO-me-1.jpg",
+    "filename": "CAO-me-1.jpg",
+    "family": "CAO-me-1.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_cao-me-2_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/CAO-me-1.jpg",
+    "bytes": 30186,
+    "sha256": "ced41a3402e1232ccb65f03bd33b6dd511496d7611af50e46ea9b79e809911a3"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2026/07/CAO-me-2-300x224.jpg",
+    "filename": "CAO-me-2-300x224.jpg",
+    "family": "CAO-me-2.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_cao-me-3_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/CAO-me-1-300x224.jpg",
+    "bytes": 11372,
+    "sha256": "9c8b9877f789119452ac0aa603b973a72b7e2b7b3ec7078a6685939570d1bdfd"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2026/07/CAO-me-2.jpg",
+    "filename": "CAO-me-2.jpg",
+    "family": "CAO-me-2.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_cao-me-3_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/CAO-me-1.jpg",
+    "bytes": 30186,
+    "sha256": "ced41a3402e1232ccb65f03bd33b6dd511496d7611af50e46ea9b79e809911a3"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2026/07/CAO-me-3-300x224.jpg",
+    "filename": "CAO-me-3-300x224.jpg",
+    "family": "CAO-me-3.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_cao-me-4_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/CAO-me-1-300x224.jpg",
+    "bytes": 11372,
+    "sha256": "9c8b9877f789119452ac0aa603b973a72b7e2b7b3ec7078a6685939570d1bdfd"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2026/07/CAO-me-3.jpg",
+    "filename": "CAO-me-3.jpg",
+    "family": "CAO-me-3.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_cao-me-4_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/CAO-me-1.jpg",
+    "bytes": 30186,
+    "sha256": "ced41a3402e1232ccb65f03bd33b6dd511496d7611af50e46ea9b79e809911a3"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2026/07/CAO-me-300x224.jpg",
+    "filename": "CAO-me-300x224.jpg",
+    "family": "CAO-me.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_cao-me_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/CAO-me-1-300x224.jpg",
+    "bytes": 11372,
+    "sha256": "9c8b9877f789119452ac0aa603b973a72b7e2b7b3ec7078a6685939570d1bdfd"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2026/07/CAO-me-4-300x224.jpg",
+    "filename": "CAO-me-4-300x224.jpg",
+    "family": "CAO-me-4.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_cao-me-5_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/CAO-me-1-300x224.jpg",
+    "bytes": 11372,
+    "sha256": "9c8b9877f789119452ac0aa603b973a72b7e2b7b3ec7078a6685939570d1bdfd"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2026/07/CAO-me-4.jpg",
+    "filename": "CAO-me-4.jpg",
+    "family": "CAO-me-4.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_cao-me-5_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/CAO-me-1.jpg",
+    "bytes": 30186,
+    "sha256": "ced41a3402e1232ccb65f03bd33b6dd511496d7611af50e46ea9b79e809911a3"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2026/07/CAO-me-5-300x224.jpg",
+    "filename": "CAO-me-5-300x224.jpg",
+    "family": "CAO-me-5.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_cao-me-6_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/CAO-me-1-300x224.jpg",
+    "bytes": 11372,
+    "sha256": "9c8b9877f789119452ac0aa603b973a72b7e2b7b3ec7078a6685939570d1bdfd"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2026/07/CAO-me-5.jpg",
+    "filename": "CAO-me-5.jpg",
+    "family": "CAO-me-5.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_.md",
+      "raw messy data/www.phenomcomm.com_how-we-help_cao-me-6_.md",
+      "raw messy data/www.phenomcomm.com_page-sitemap.xml.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/CAO-me-1.jpg",
+    "bytes": 30186,
+    "sha256": "ced41a3402e1232ccb65f03bd33b6dd511496d7611af50e46ea9b79e809911a3"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2026/07/CAO-me.jpg",
+    "filename": "CAO-me.jpg",
+    "family": "CAO-me.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_how-we-help_cao-me_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/CAO-me-1.jpg",
+    "bytes": 30186,
+    "sha256": "ced41a3402e1232ccb65f03bd33b6dd511496d7611af50e46ea9b79e809911a3"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2026/07/Dont-Let-Your-Phone.-book-cover.jpg",
+    "filename": "Dont-Let-Your-Phone.-book-cover.jpg",
+    "family": "Dont-Let-Your-Phone.-book-cover.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_.md",
+      "raw messy data/www.phenomcomm.com_page-sitemap.xml.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/Dont-Let-Your-Phone.-book-cover.jpg",
+    "bytes": 132511,
+    "sha256": "7fb7e54f68d2b746a317628c1023eb7651ca3dfe0dfe18088584a977454ba6e3"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2026/07/Erica-Fields-ltr-1-218x300.png",
+    "filename": "Erica-Fields-ltr-1-218x300.png",
+    "family": "Erica-Fields-ltr-1.png",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_about-us_erica-fields-ltr-2_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/Erica-Fields-ltr-1-218x300.png",
+    "bytes": 66640,
+    "sha256": "3a79609c25e650536ea2d9672da743dde65b23229c4ce44564bed57d857687e0"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2026/07/Erica-Fields-ltr-1.png",
+    "filename": "Erica-Fields-ltr-1.png",
+    "family": "Erica-Fields-ltr-1.png",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_about-us_erica-fields-ltr-2_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/Erica-Fields-ltr-1.png",
+    "bytes": 191026,
+    "sha256": "f950ed6c7578621470c25fa428011de5a57f3df5ce5b6bffd334f2797aa1295c"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2026/07/Erica-Fields-ltr-218x300.png",
+    "filename": "Erica-Fields-ltr-218x300.png",
+    "family": "Erica-Fields-ltr.png",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_about-us_erica-fields-ltr_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/Erica-Fields-ltr-1-218x300.png",
+    "bytes": 66640,
+    "sha256": "3a79609c25e650536ea2d9672da743dde65b23229c4ce44564bed57d857687e0"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2026/07/Erica-Fields-ltr.png",
+    "filename": "Erica-Fields-ltr.png",
+    "family": "Erica-Fields-ltr.png",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_about-us_erica-fields-ltr_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/Erica-Fields-ltr-1.png",
+    "bytes": 191026,
+    "sha256": "f950ed6c7578621470c25fa428011de5a57f3df5ce5b6bffd334f2797aa1295c"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2026/07/IMG_5415-scaled.jpg",
+    "filename": "IMG_5415-scaled.jpg",
+    "family": "IMG_5415.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_about-us_.md",
+      "raw messy data/www.phenomcomm.com_page-sitemap.xml.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/IMG_5415-scaled.jpg",
+    "bytes": 698744,
+    "sha256": "6d4687f94aa711ce5b9b027c3bde85ee80002b7e6f14205ad0fbae35afd1686e"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2026/07/PauletteHeadshots03012020byMichaelDantzler-8_-scaled.jpg",
+    "filename": "PauletteHeadshots03012020byMichaelDantzler-8_-scaled.jpg",
+    "family": "PauletteHeadshots03012020byMichaelDantzler-8_.jpg",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_page-sitemap.xml.md",
+      "raw messy data/www.phenomcomm.com_speaking_.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/PauletteHeadshots03012020byMichaelDantzler-8_-scaled.jpg",
+    "bytes": 438303,
+    "sha256": "1887ca665d4f6a5ec0e86519157973bc2fb43c346b63c7579d56cc4f52886119"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2026/07/PhenomComm-Capability-Statement.pdf",
+    "filename": "PhenomComm-Capability-Statement.pdf",
+    "family": "PhenomComm-Capability-Statement.pdf",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_.md",
+      "raw messy data/www.phenomcomm.com_about-us_.md",
+      "raw messy data/www.phenomcomm.com_how-we-help_.md",
+      "raw messy data/www.phenomcomm.com_wp-content_uploads_2026_07_PhenomComm-Capability-Statement.pdf.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/PhenomComm-Capability-Statement.pdf",
+    "bytes": 304423,
+    "sha256": "ba449bb3ae750865d821dc057a7146d6aaade630651e6e34cad7d8d9f4245953"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2026/07/Upgrade-Framework-Companion-Workbook-2026_7-6.pdf",
+    "filename": "Upgrade-Framework-Companion-Workbook-2026_7-6.pdf",
+    "family": "Upgrade-Framework-Companion-Workbook-2026_7-6.pdf",
+    "businessHosted": true,
+    "sources": [
+      "raw messy data/www.phenomcomm.com_upgrade_.md",
+      "raw messy data/www.phenomcomm.com_wp-content_uploads_2026_07_Upgrade-Framework-Companion-Workbook-2026_7-6.pdf.md"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/Upgrade-Framework-Companion-Workbook-2026_7-6.pdf",
+    "bytes": 558564,
+    "sha256": "38408275d96683eab8a4efcf8c7102643ca2f44831a74de7b2d48a759bbb24e1"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2025/02/2025-logo-long-website.jpg",
+    "filename": "2025-logo-long-website.jpg",
+    "family": "2025-logo-long-website.jpg",
+    "businessHosted": true,
+    "sources": [
+      "Original homepage HTML, brand asset discovery"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/2025-logo-long-website.jpg",
+    "bytes": 31222,
+    "sha256": "72bac3acf7a570f891556e53f5b2c7ab67379fb6229ab6c0bf8b2b50c32f9fee"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2025/02/cropped-2025-logo-white-on-clear-1-192x192.png",
+    "filename": "cropped-2025-logo-white-on-clear-1-192x192.png",
+    "family": "cropped-2025-logo-white-on-clear-1-192x192.png",
+    "businessHosted": true,
+    "sources": [
+      "Original homepage HTML, brand asset discovery"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/cropped-2025-logo-white-on-clear-1-192x192.png",
+    "bytes": 8385,
+    "sha256": "88b69996a3fb1b719017b0d76ada0836e3627b55db4c5a72e87eb5fd956a78b2"
+  },
+  {
+    "url": "https://www.phenomcomm.com/wp-content/uploads/2025/02/cropped-2025-logo-white-on-clear-1-180x180.png",
+    "filename": "cropped-2025-logo-white-on-clear-1-180x180.png",
+    "family": "cropped-2025-logo-white-on-clear-1-180x180.png",
+    "businessHosted": true,
+    "sources": [
+      "Original homepage HTML, brand asset discovery"
+    ],
+    "downloadStatus": "downloaded",
+    "localPath": "assets/source-media/cropped-2025-logo-white-on-clear-1-180x180.png",
+    "bytes": 7699,
+    "sha256": "3b87726cd431df40da6f06f0fb6cc6782dfe2d0d0d1c07ed335f355b93845f53"
+  }
+]
