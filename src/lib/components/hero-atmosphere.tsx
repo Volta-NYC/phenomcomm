@@ -63,9 +63,7 @@ void main() {
   color = mix(color, paper, pointerWave * focus * 0.11);
   color += terracotta * pointerGlow * 0.18;
 
-  float edge = 0.52 + smoothstep(1.22, 0.1, length(centered * vec2(0.76, 1.0))) * 0.48;
-  float alpha = (0.34 + softField * 0.36 + focus * 0.17 + pointerGlow) * edge;
-  gl_FragColor = vec4(color, alpha);
+  gl_FragColor = vec4(color, 1.0);
 }
 `;
 
@@ -75,7 +73,7 @@ export default function HeroAtmosphere() {
   useEffect(() => {
     const element = canvas.current;
     if (!element) return;
-    const gl = element.getContext("webgl", { alpha: true, antialias: false, powerPreference: "low-power" });
+    const gl = element.getContext("webgl", { alpha: false, antialias: false, powerPreference: "low-power" });
     if (!gl) return;
 
     const compile = (type: number, source: string) => {

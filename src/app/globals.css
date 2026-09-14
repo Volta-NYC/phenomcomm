@@ -61,12 +61,12 @@ body::after {
   background-size: 160px 160px;
   mix-blend-mode: multiply;
 }
-main > section:not(.home-hero) {
+main > section:not(.home-hero):not(.home-hero-shell) {
   position: relative;
   isolation: isolate;
   overflow: clip;
 }
-main > section:not(.home-hero)::before {
+main > section:not(.home-hero):not(.home-hero-shell)::before {
   content: "";
   position: absolute;
   z-index: 0;
@@ -82,7 +82,7 @@ main > section:not(.home-hero)::before {
   transform: rotate(-18deg);
   pointer-events: none;
 }
-main > section:not(.home-hero):nth-child(even)::before {
+main > section:not(.home-hero):not(.home-hero-shell):nth-child(even)::before {
   right: auto;
   left: min(-13vw, -130px);
   top: 10%;
@@ -93,7 +93,7 @@ main > section:not(.home-hero):nth-child(even)::before {
     repeating-radial-gradient(ellipse at center, transparent 0 31px, rgb(173 80 56 / 0.055) 32px 33px, transparent 34px 62px);
   transform: rotate(24deg);
 }
-main > section:not(.home-hero) > :not(.cta-circle) {
+main > section:not(.home-hero):not(.home-hero-shell) > :not(.cta-circle) {
   position: relative;
   z-index: 1;
 }
@@ -364,6 +364,23 @@ p {
 .menu-toggle {
   display: none;
 }
+.home-hero-shell {
+  position: relative;
+  isolation: isolate;
+  overflow: clip;
+  background: #f7eee5;
+}
+.home-hero-shell::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 52% 75% at 78% 42%, rgb(117 48 98 / 0.19), transparent 72%),
+    radial-gradient(ellipse 38% 58% at 58% 95%, rgb(198 72 42 / 0.15), transparent 75%),
+    radial-gradient(ellipse 32% 50% at 98% 7%, rgb(224 147 61 / 0.12), transparent 74%);
+}
 .home-hero {
   display: grid;
   grid-template-columns: 1.15fr 1fr;
@@ -372,33 +389,23 @@ p {
   padding-bottom: 54px;
   align-items: center;
   position: relative;
-  isolation: isolate;
-  overflow: clip;
-}
-.home-hero::before {
-  content: "";
-  position: absolute;
-  z-index: -2;
-  inset: 0;
-  pointer-events: none;
-  background:
-    radial-gradient(ellipse 52% 75% at 78% 42%, rgb(117 48 98 / 0.19), transparent 72%),
-    radial-gradient(ellipse 38% 58% at 58% 95%, rgb(198 72 42 / 0.15), transparent 75%),
-    radial-gradient(ellipse 32% 50% at 98% 7%, rgb(224 147 61 / 0.12), transparent 74%);
+  z-index: 1;
+  overflow: visible;
 }
 .hero-atmosphere {
   position: absolute;
-  z-index: -1;
-  inset: -10% -8%;
-  width: 116%;
-  height: 120%;
+  z-index: 0;
+  inset: -12% -6vw;
+  width: calc(100% + 12vw);
+  height: 124%;
   pointer-events: none;
-  opacity: 0.96;
-  filter: saturate(0.92) contrast(1.02);
+  opacity: 0.8;
+  filter: saturate(0.88) contrast(1.02);
 }
 .hero-copy,
 .hero-visual {
   position: relative;
+  z-index: 1;
 }
 .hero-copy {
   padding-block: 5px;

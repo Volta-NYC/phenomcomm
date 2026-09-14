@@ -21,9 +21,10 @@ export const metadata = pageMetadata(
 export default function HomePage() {
   return (
     <>
-      <section className="home-hero container">
+      <section className="home-hero-shell">
         <HeroAtmosphere />
-        <div className="hero-copy">
+        <div className="home-hero container">
+          <div className="hero-copy">
           <Eyebrow>People first. Performance follows.</Eyebrow>
           <h1>
             Better people.
@@ -52,8 +53,8 @@ export default function HomePage() {
               <br />A lifetime of believing in their potential.
             </p>
           </div>
-        </div>
-        <div className="hero-visual">
+          </div>
+          <div className="hero-visual">
           <div className="hero-orbit" aria-hidden="true" />
           <UpgradeMark className="hero-mark" live />
           <Photo
@@ -80,6 +81,7 @@ export default function HomePage() {
             <Link href="/about-us" aria-label="Meet Paulette Cunningham">
               <Arrow diagonal />
             </Link>
+          </div>
           </div>
         </div>
       </section>
