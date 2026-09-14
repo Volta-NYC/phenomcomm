@@ -22,7 +22,7 @@ export default function HomePage() {
   return (
     <>
       <section className="home-hero-shell">
-        <HeroAtmosphere />
+        <HeroAtmosphere variant="home" />
         <div className="home-hero container">
           <div className="hero-copy">
           <Eyebrow>People first. Performance follows.</Eyebrow>

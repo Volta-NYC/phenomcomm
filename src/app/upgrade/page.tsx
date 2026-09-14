@@ -15,7 +15,7 @@ export default function UpgradePage() {
   return (
     <div className="upgrade-page">
       <section className="upgrade-hero container interior-hero">
-        <HeroAtmosphere />
+        <HeroAtmosphere variant="workbook" />
         <div>
           <Eyebrow>A little extra for your next chapter</Eyebrow>
           <h1>

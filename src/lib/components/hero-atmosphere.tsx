@@ -13,6 +13,7 @@ precision highp float;
 uniform vec2 resolution;
 uniform vec2 pointer;
 uniform float time;
+uniform float variant;
 
 float hash(vec2 point) {
   return fract(sin(dot(point, vec2(127.1, 311.7))) * 43758.5453123);
@@ -52,23 +53,55 @@ void main() {
   float pointerWave = sin(length(centered - cursor * 0.62) * 13.0 - time * 1.25) * 0.5 + 0.5;
   float focus = exp(-3.9 * length(centered - vec2(0.38, -0.04)));
   float pointerGlow = exp(-5.5 * length(centered - cursor)) * 0.26;
+  float motif = softField;
+  if (variant > 0.5 && variant < 1.5) {
+    motif = mix(softField, sin(flow.x * 7.0 - flow.y * 3.0 + time * 0.72) * 0.5 + 0.5, 0.46);
+  } else if (variant > 1.5 && variant < 2.5) {
+    motif = mix(softField, sin(length(flow + vec2(-0.32, 0.12)) * 14.0 - time * 0.7) * 0.5 + 0.5, 0.42);
+  } else if (variant > 2.5 && variant < 3.5) {
+    motif = mix(softField, sin(flow.y * 8.0 + field(flow * 2.2) * 5.0 - time) * 0.5 + 0.5, 0.5);
+  } else if (variant > 3.5 && variant < 4.5) {
+    motif = mix(softField, sin(flow.x * 5.0 + flow.y * 4.0 + time * 0.48) * 0.5 + 0.5, 0.38);
+  } else if (variant > 4.5 && variant < 5.5) {
+    motif = mix(softField, sin(length(flow - cursor * 0.3) * 11.0 - time * 0.9) * 0.5 + 0.5, 0.48);
+  } else if (variant > 5.5) {
+    motif = mix(softField, sin(flow.x * 8.0 + sin(flow.y * 4.0 + time) * 2.4) * 0.5 + 0.5, 0.4);
+  }
 
   vec3 paper = vec3(0.975, 0.948, 0.912);
-  vec3 plum = vec3(0.30, 0.16, 0.37);
-  vec3 terracotta = vec3(0.81, 0.28, 0.16);
-  vec3 amber = vec3(0.93, 0.59, 0.24);
-  vec3 color = mix(paper, plum, smoothstep(0.35, 0.75, softField) * 0.82);
-  color = mix(color, terracotta, smoothstep(0.48, 0.86, secondaryField) * 0.66);
-  color = mix(color, amber, smoothstep(0.66, 1.04, softField + secondaryField * 0.2) * 0.44);
-  color = mix(color, paper, pointerWave * focus * 0.11);
-  color += terracotta * pointerGlow * 0.18;
+  vec3 primary = vec3(0.71, 0.63, 0.77);
+  vec3 secondary = vec3(0.91, 0.50, 0.33);
+  vec3 accent = vec3(0.96, 0.75, 0.48);
+  float primaryWeight = 0.34;
+  float secondaryWeight = 0.28;
+  if (variant > 0.5 && variant < 1.5) {
+    primary = vec3(0.38, 0.49, 0.67); secondary = vec3(0.79, 0.36, 0.22); accent = vec3(0.87, 0.67, 0.36);
+  } else if (variant > 1.5 && variant < 2.5) {
+    primary = vec3(0.66, 0.48, 0.63); secondary = vec3(0.75, 0.39, 0.27); accent = vec3(0.90, 0.67, 0.47);
+  } else if (variant > 2.5 && variant < 3.5) {
+    primary = vec3(0.35, 0.29, 0.48); secondary = vec3(0.90, 0.43, 0.20); accent = vec3(0.95, 0.70, 0.34);
+  } else if (variant > 3.5 && variant < 4.5) {
+    primary = vec3(0.65, 0.45, 0.27); secondary = vec3(0.86, 0.56, 0.24); accent = vec3(0.96, 0.79, 0.50);
+  } else if (variant > 4.5 && variant < 5.5) {
+    primary = vec3(0.48, 0.35, 0.57); secondary = vec3(0.88, 0.42, 0.25); accent = vec3(0.94, 0.66, 0.38);
+  } else if (variant > 5.5) {
+    primary = vec3(0.29, 0.39, 0.56); secondary = vec3(0.73, 0.42, 0.31); accent = vec3(0.86, 0.67, 0.43);
+  }
+  vec3 color = mix(paper, primary, smoothstep(0.32, 0.83, motif) * primaryWeight);
+  color = mix(color, secondary, smoothstep(0.46, 0.94, secondaryField) * secondaryWeight);
+  color = mix(color, accent, smoothstep(0.72, 1.1, motif + secondaryField * 0.18) * 0.25);
+  color = mix(color, paper, pointerWave * focus * 0.1);
+  color += secondary * pointerGlow * 0.12;
 
   gl_FragColor = vec4(color, 1.0);
 }
 `;
 
-export default function HeroAtmosphere() {
+const variantIds = { home: 0, help: 1, story: 2, speaking: 3, book: 4, contact: 5, workbook: 6 } as const;
+
+export default function HeroAtmosphere({ variant = "home" }: { variant?: keyof typeof variantIds }) {
   const canvas = useRef<HTMLCanvasElement>(null);
+  const variantId = variantIds[variant];
 
   useEffect(() => {
     const element = canvas.current;
@@ -110,6 +143,7 @@ export default function HeroAtmosphere() {
     const resolution = gl.getUniformLocation(program, "resolution");
     const pointerUniform = gl.getUniformLocation(program, "pointer");
     const clock = gl.getUniformLocation(program, "time");
+    const variantUniform = gl.getUniformLocation(program, "variant");
     const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
     const pointer = { x: 0.74, y: 0.49 };
     const target = { ...pointer };
@@ -133,6 +167,7 @@ export default function HeroAtmosphere() {
       gl.uniform2f(resolution, width, height);
       gl.uniform2f(pointerUniform, pointer.x, pointer.y);
       gl.uniform1f(clock, reducedMotion.matches ? 8 : (now - started) / 1000);
+      gl.uniform1f(variantUniform, variantId);
       gl.drawArrays(gl.TRIANGLES, 0, 3);
     };
 
@@ -177,7 +212,7 @@ export default function HeroAtmosphere() {
       gl.deleteShader(vertex);
       gl.deleteShader(fragment);
     };
-  }, []);
+  }, [variantId]);
 
-  return <canvas ref={canvas} className="hero-atmosphere" aria-hidden="true" />;
+  return <canvas ref={canvas} className="hero-atmosphere" data-atmosphere={variant} aria-hidden="true" />;
 }

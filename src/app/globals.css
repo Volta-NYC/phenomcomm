@@ -272,10 +272,10 @@ p {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(250, 248, 244, 0.91);
-  border-bottom: 1px solid rgb(29 41 66 / 0.1);
-  backdrop-filter: blur(12px);
-  box-shadow: 0 8px 26px rgb(29 41 66 / 0.035);
+  background: rgb(250 248 244 / 0.7);
+  border-bottom: 1px solid rgb(29 41 66 / 0.12);
+  backdrop-filter: blur(18px) saturate(1.14);
+  box-shadow: 0 10px 28px rgb(29 41 66 / 0.055), inset 0 -1px 0 rgb(255 255 255 / 0.38);
 }
 .nav-inner {
   height: var(--header-height);
@@ -399,8 +399,8 @@ p {
   width: calc(100% + 12vw);
   height: 124%;
   pointer-events: none;
-  opacity: 0.8;
-  filter: saturate(0.88) contrast(1.02);
+  opacity: 0.7;
+  filter: saturate(0.76) brightness(1.045) contrast(0.98);
 }
 .hero-copy,
 .hero-visual {
@@ -1365,24 +1365,22 @@ p {
 :is(.page-hero, .interior-hero) {
   position: relative;
   isolation: isolate;
-  overflow: clip;
-  background:
-    radial-gradient(ellipse 54% 100% at 89% 45%, rgb(117 48 98 / 0.12), transparent 74%),
-    radial-gradient(ellipse 38% 80% at 7% 86%, rgb(198 72 42 / 0.09), transparent 76%),
-    rgb(250 248 244 / 0.68);
+  overflow: visible;
 }
 :is(.page-hero, .interior-hero)::after {
   content: "";
   position: absolute;
   z-index: 0;
-  inset: 0;
+  inset: 0 auto 0 50%;
+  width: 100vw;
   pointer-events: none;
-  opacity: 0.22;
+  opacity: 0.18;
   background-image:
     repeating-linear-gradient(120deg, transparent 0 19px, rgb(29 41 66 / 0.09) 20px 21px, transparent 22px 41px),
     radial-gradient(circle at 76% 35%, rgb(226 142 72 / 0.28) 0 2px, transparent 2.5px);
   background-size: auto, 34px 34px;
   mask-image: linear-gradient(90deg, transparent, black 35%, black 78%, transparent);
+  transform: translateX(-50%);
 }
 :is(.page-hero, .interior-hero) > :not(.hero-atmosphere) {
   position: relative;
@@ -1391,12 +1389,13 @@ p {
 :is(.page-hero, .interior-hero) > .hero-atmosphere {
   position: absolute;
   z-index: 0;
-  inset: -14% -10%;
-  width: 120%;
+  inset: -14% auto -14% 50%;
+  width: 100vw;
   height: 128%;
   pointer-events: none;
-  opacity: 0.34;
-  filter: saturate(0.72) contrast(1.02);
+  opacity: 0.38;
+  filter: saturate(0.7) contrast(1.02);
+  transform: translateX(-50%);
 }
 .page-hero {
   padding-block: 56px 52px;

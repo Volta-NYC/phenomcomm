@@ -10,7 +10,7 @@ export default function BookPage() {
   return (
     <>
       <section className="book-hero container interior-hero">
-        <HeroAtmosphere />
+        <HeroAtmosphere variant="book" />
         <div className="book-stage">
           <span className="book-circle" aria-hidden="true" />
           <BookObject />

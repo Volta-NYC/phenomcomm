@@ -10,7 +10,7 @@ export default function ContactPage() {
   return (
     <>
       <section className="contact-page container interior-hero">
-        <HeroAtmosphere />
+        <HeroAtmosphere variant="contact" />
         <div className="contact-layout">
           <div>
             <Eyebrow>Good things start with a conversation</Eyebrow>

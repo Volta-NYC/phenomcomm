@@ -11,7 +11,7 @@ export default function SolutionsPage() {
   return (
     <>
       <section className="page-hero container">
-        <HeroAtmosphere />
+        <HeroAtmosphere variant="help" />
         <Eyebrow>Practical solutions. Human progress.</Eyebrow>
         <h1>
           Your people have potential.

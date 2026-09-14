@@ -10,7 +10,7 @@ export default function AboutPage() {
   return (
     <>
       <section className="page-hero page-hero-split container">
-        <HeroAtmosphere />
+        <HeroAtmosphere variant="story" />
         <div>
           <Eyebrow>Our story</Eyebrow>
           <h1>

@@ -10,7 +10,7 @@ export default function SpeakingPage() {
   return (
     <>
       <section className="container speaking-hero interior-hero">
-        <HeroAtmosphere />
+        <HeroAtmosphere variant="speaking" />
         <div className="speaking-intro">
           <div>
             <Eyebrow>Keynotes & workshops with Paulette Cunningham</Eyebrow>
