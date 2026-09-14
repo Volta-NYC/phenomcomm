@@ -53,18 +53,18 @@ void main() {
   float focus = exp(-3.9 * length(centered - vec2(0.38, -0.04)));
   float pointerGlow = exp(-5.5 * length(centered - cursor)) * 0.26;
 
-  vec3 paper = vec3(0.965, 0.945, 0.885);
-  vec3 cobalt = vec3(0.10, 0.31, 0.83);
-  vec3 coral = vec3(0.95, 0.31, 0.19);
-  vec3 mint = vec3(0.12, 0.64, 0.52);
-  vec3 color = mix(paper, cobalt, smoothstep(0.38, 0.76, softField) * 0.92);
-  color = mix(color, coral, smoothstep(0.52, 0.88, secondaryField) * 0.72);
-  color = mix(color, mint, smoothstep(0.66, 0.96, softField + secondaryField * 0.22) * 0.56);
-  color = mix(color, paper, pointerWave * focus * 0.16);
-  color += cobalt * pointerGlow * 0.2;
+  vec3 paper = vec3(0.975, 0.948, 0.912);
+  vec3 plum = vec3(0.30, 0.16, 0.37);
+  vec3 terracotta = vec3(0.81, 0.28, 0.16);
+  vec3 amber = vec3(0.93, 0.59, 0.24);
+  vec3 color = mix(paper, plum, smoothstep(0.35, 0.75, softField) * 0.82);
+  color = mix(color, terracotta, smoothstep(0.48, 0.86, secondaryField) * 0.66);
+  color = mix(color, amber, smoothstep(0.66, 1.04, softField + secondaryField * 0.2) * 0.44);
+  color = mix(color, paper, pointerWave * focus * 0.11);
+  color += terracotta * pointerGlow * 0.18;
 
-  float edge = smoothstep(1.15, 0.16, length(centered * vec2(0.76, 1.0)));
-  float alpha = (0.18 + softField * 0.42 + focus * 0.2 + pointerGlow) * edge;
+  float edge = 0.52 + smoothstep(1.22, 0.1, length(centered * vec2(0.76, 1.0))) * 0.48;
+  float alpha = (0.34 + softField * 0.36 + focus * 0.17 + pointerGlow) * edge;
   gl_FragColor = vec4(color, alpha);
 }
 `;

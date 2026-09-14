@@ -375,6 +375,17 @@ p {
   isolation: isolate;
   overflow: clip;
 }
+.home-hero::before {
+  content: "";
+  position: absolute;
+  z-index: -2;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 52% 75% at 78% 42%, rgb(117 48 98 / 0.19), transparent 72%),
+    radial-gradient(ellipse 38% 58% at 58% 95%, rgb(198 72 42 / 0.15), transparent 75%),
+    radial-gradient(ellipse 32% 50% at 98% 7%, rgb(224 147 61 / 0.12), transparent 74%);
+}
 .hero-atmosphere {
   position: absolute;
   z-index: -1;
@@ -382,8 +393,8 @@ p {
   width: 116%;
   height: 120%;
   pointer-events: none;
-  opacity: 1;
-  filter: saturate(1.08);
+  opacity: 0.96;
+  filter: saturate(0.92) contrast(1.02);
 }
 .hero-copy,
 .hero-visual {
