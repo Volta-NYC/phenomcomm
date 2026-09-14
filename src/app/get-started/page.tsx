@@ -1,8 +1,147 @@
 import { Arrow, Button, ContactCta, Eyebrow, SectionHeading } from "@/lib/components/ui";
 import { pageMetadata, site } from "@/lib/site";
-export const metadata = pageMetadata("Let’s get started", "Start a conversation about your team’s performance. Schedule a discovery call with PhenomComm, email consult@phenomcomm.com, or call (803) 875-0525.", "/get-started");
+export const metadata = pageMetadata(
+  "Let’s get started",
+  "Start a conversation about your team’s performance. Schedule a discovery call with PhenomComm, email consult@phenomcomm.com, or call (803) 875-0525.",
+  "/get-started",
+);
 export default function ContactPage() {
-  return <><section className="contact-page container"><div className="contact-layout"><div><Eyebrow>Good things start with a conversation</Eyebrow><h1>Tell us what’s next.<br /><em>We’re listening.</em></h1><p className="page-intro">A stronger team. A more confident leader. A culture where progress sticks. Let’s talk about what meaningful change looks like for you.</p><div className="contact-options"><div className="contact-option"><span>Email us</span><a href={`mailto:${site.email}`}>{site.email}<Arrow diagonal/></a></div><div className="contact-option"><span>Give us a call</span><a href={site.phoneHref}>{site.phone}<Arrow diagonal/></a></div></div><p className="contact-location">Based in New York. Serving NYC metro & clients nationwide.</p></div><div className="contact-card"><Eyebrow>Your first step</Eyebrow><h2>A discovery conversation.<br /><em>A clearer way forward.</em></h2><p>Share a little about your organization, the challenges you’re facing, and the outcomes you want to achieve. We’ll explore how we can help.</p><Button href={site.booking} external>Schedule a discovery call</Button><p className="small-note">Choose a time that works for you on our booking calendar.</p></div></div></section>
-  <section className="cream-section"><div className="container section"><SectionHeading eyebrow="What working together looks like" title={<>Thoughtful from<br /><em>the very first step.</em></>}/><div className="process-grid"><article className="process-item" data-reveal><span className="step-number">1</span><h3>Discover</h3><p>We get acquainted with your organization, your people, and the performance outcomes you want to achieve.</p><ul><li>Your challenges and priorities</li><li>Your vision for meaningful progress</li><li>The right starting point</li></ul></article><article className="process-item" data-reveal><span className="step-number">2</span><h3>Assess</h3><p>We look closely at the behaviors, systems, and communication patterns influencing performance.</p><ul><li>Interviews and observations</li><li>Shadowing and listening sessions</li><li>Surveys</li></ul></article><article className="process-item" data-reveal><span className="step-number">3</span><h3>Deliver</h3><p>We design a customized engagement using The Upgrade Framework™ to support measurable, lasting behavior change.</p><ul><li>Keynotes, workshops, and training series</li><li>Consulting</li><li>Executive and small-group coaching</li></ul></article></div></div></section>
-  <section className="section container"><div className="story-body"><div><Eyebrow>For organizations & procurement teams</Eyebrow><h2>A partner you can<br /><em>build with.</em></h2></div><div className="story-text"><p>PhenomComm is certified as a Minority and Women-Owned Business Enterprise by New York City and the Port Authority of NY & NJ.</p><p>Our capability statement includes core competencies, past performance, certifications, and industry codes.</p><Button href={site.capability} external variant="outline">Download capability statement</Button></div></div></section><ContactCta title={<>Small steps.<br /><em>Meaningful possibilities.</em></>} description="Not sure which service fits? That’s exactly what the first conversation is for."/></>;
+  return (
+    <>
+      <section className="contact-page container">
+        <div className="contact-layout">
+          <div>
+            <Eyebrow>Good things start with a conversation</Eyebrow>
+            <h1>
+              Tell us what’s next.
+              <br />
+              <em>We’re listening.</em>
+            </h1>
+            <p className="page-intro">
+              A stronger team. A more confident leader. A culture where progress sticks. Let’s talk about what
+              meaningful change looks like for you.
+            </p>
+            <div className="contact-options">
+              <div className="contact-option">
+                <span>Email us</span>
+                <a href={`mailto:${site.email}`}>
+                  {site.email}
+                  <Arrow diagonal />
+                </a>
+              </div>
+              <div className="contact-option">
+                <span>Give us a call</span>
+                <a href={site.phoneHref}>
+                  {site.phone}
+                  <Arrow diagonal />
+                </a>
+              </div>
+            </div>
+            <p className="contact-location">Based in New York. Serving NYC metro & clients nationwide.</p>
+          </div>
+          <div className="contact-card">
+            <Eyebrow>Your first step</Eyebrow>
+            <h2>
+              A discovery conversation.
+              <br />
+              <em>A clearer way forward.</em>
+            </h2>
+            <p>
+              Share a little about your organization, the challenges you’re facing, and the outcomes you want to
+              achieve. We’ll explore how we can help.
+            </p>
+            <Button href={site.booking} external>
+              Schedule a discovery call
+            </Button>
+            <p className="small-note">Choose a time that works for you on our booking calendar.</p>
+          </div>
+        </div>
+      </section>
+      <section className="cream-section">
+        <div className="container section">
+          <SectionHeading
+            eyebrow="What working together looks like"
+            title={
+              <>
+                Thoughtful from
+                <br />
+                <em>the very first step.</em>
+              </>
+            }
+          />
+          <div className="process-grid">
+            <article className="process-item" data-reveal>
+              <span className="step-number">1</span>
+              <h3>Discover</h3>
+              <p>
+                We get acquainted with your organization, your people, and the performance outcomes you want to achieve.
+              </p>
+              <ul>
+                <li>Your challenges and priorities</li>
+                <li>Your vision for meaningful progress</li>
+                <li>The right starting point</li>
+              </ul>
+            </article>
+            <article className="process-item" data-reveal>
+              <span className="step-number">2</span>
+              <h3>Assess</h3>
+              <p>We look closely at the behaviors, systems, and communication patterns influencing performance.</p>
+              <ul>
+                <li>Interviews and observations</li>
+                <li>Shadowing and listening sessions</li>
+                <li>Surveys</li>
+              </ul>
+            </article>
+            <article className="process-item" data-reveal>
+              <span className="step-number">3</span>
+              <h3>Deliver</h3>
+              <p>
+                We design a customized engagement using The Upgrade Framework™ to support measurable, lasting behavior
+                change.
+              </p>
+              <ul>
+                <li>Keynotes, workshops, and training series</li>
+                <li>Consulting</li>
+                <li>Executive and small-group coaching</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section className="section container">
+        <div className="story-body">
+          <div>
+            <Eyebrow>For organizations & procurement teams</Eyebrow>
+            <h2>
+              A partner you can
+              <br />
+              <em>build with.</em>
+            </h2>
+          </div>
+          <div className="story-text">
+            <p>
+              PhenomComm is certified as a Minority and Women-Owned Business Enterprise by New York City and the Port
+              Authority of NY & NJ.
+            </p>
+            <p>
+              Our capability statement includes core competencies, past performance, certifications, and industry codes.
+            </p>
+            <Button href={site.capability} external variant="outline">
+              Download capability statement
+            </Button>
+          </div>
+        </div>
+      </section>
+      <ContactCta
+        title={
+          <>
+            Small steps.
+            <br />
+            <em>Meaningful possibilities.</em>
+          </>
+        }
+        description="Not sure which service fits? That’s exactly what the first conversation is for."
+      />
+    </>
+  );
 }
