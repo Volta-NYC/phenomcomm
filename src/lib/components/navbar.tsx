@@ -11,6 +11,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
   const toggle = useRef<HTMLButtonElement>(null);
   const panel = useRef<HTMLDivElement>(null);
+  const closeMenu = () => setOpen(false);
   useEffect(() => {
     if (!open) return;
     const previous = document.body.style.overflow;
@@ -53,7 +54,7 @@ export default function Navbar() {
   return (
     <header className={`site-header ${open ? "menu-open" : ""}`}>
       <div className="container nav-inner">
-        <Link href="/" className="logo" aria-label="PhenomComm home" onClick={() => setOpen(false)}>
+        <Link href="/" className="logo" aria-label="PhenomComm home" onClick={closeMenu}>
           <Image
             src="/images/phenomcomm-logo.webp"
             alt="PhenomComm. Talent development that works."
@@ -63,8 +64,11 @@ export default function Navbar() {
           />
         </Link>
         <nav className="desktop-nav" aria-label="Main navigation">
+          <span className="nav-label" aria-hidden="true">
+            Explore
+          </span>
           {navigation.map((item) => (
-            <Link key={item.href} href={item.href} aria-current={pathname === item.href ? "page" : undefined}>
+            <Link key={item.href} href={item.href} scroll aria-current={pathname === item.href ? "page" : undefined}>
               {item.label}
             </Link>
           ))}
@@ -87,7 +91,7 @@ export default function Navbar() {
       {open && (
         <div className="mobile-panel" id="mobile-navigation" ref={panel}>
           <nav aria-label="Mobile navigation">
-            <Link href="/" onClick={() => setOpen(false)}>
+            <Link href="/" scroll onClick={closeMenu}>
               Home
             </Link>
             {navigation.map((item) => (
@@ -95,13 +99,14 @@ export default function Navbar() {
                 key={item.href}
                 href={item.href}
                 aria-current={pathname === item.href ? "page" : undefined}
-                onClick={() => setOpen(false)}
+                scroll
+                onClick={closeMenu}
               >
                 {item.label}
                 <Arrow />
               </Link>
             ))}
-            <Link href="/get-started" onClick={() => setOpen(false)}>
+            <Link href="/get-started" scroll onClick={closeMenu}>
               Get started
               <Arrow />
             </Link>
@@ -110,7 +115,7 @@ export default function Navbar() {
               target="_blank"
               rel="noreferrer"
               className="button button-primary"
-              onClick={() => setOpen(false)}
+              onClick={closeMenu}
             >
               Schedule a consult
               <Arrow diagonal />

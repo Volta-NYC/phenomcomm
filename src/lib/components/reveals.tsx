@@ -1,9 +1,17 @@
 "use client";
-import { useEffect } from "react";
+import { useEffect, useLayoutEffect } from "react";
 import { usePathname } from "next/navigation";
 
 export default function Reveals() {
   const pathname = usePathname();
+
+  // Route changes should always begin with the page's opening content. Hash links
+  // remain intentionally exempt so in-page navigation can target its section.
+  useLayoutEffect(() => {
+    if (window.location.hash) return;
+    window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+  }, [pathname]);
+
   useEffect(() => {
     const preference = window.matchMedia("(prefers-reduced-motion: reduce)");
     const items = Array.from(document.querySelectorAll<HTMLElement>("[data-reveal]"));
