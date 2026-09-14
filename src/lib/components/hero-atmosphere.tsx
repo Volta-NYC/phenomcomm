@@ -69,11 +69,11 @@ void main() {
   }
 
   vec3 paper = vec3(0.975, 0.948, 0.912);
-  vec3 primary = vec3(0.71, 0.63, 0.77);
-  vec3 secondary = vec3(0.91, 0.50, 0.33);
-  vec3 accent = vec3(0.96, 0.75, 0.48);
-  float primaryWeight = 0.34;
-  float secondaryWeight = 0.28;
+  vec3 primary = vec3(0.64, 0.56, 0.70);
+  vec3 secondary = vec3(0.90, 0.45, 0.27);
+  vec3 accent = vec3(0.96, 0.70, 0.39);
+  float primaryWeight = 0.54;
+  float secondaryWeight = 0.4;
   if (variant > 0.5 && variant < 1.5) {
     primary = vec3(0.38, 0.49, 0.67); secondary = vec3(0.79, 0.36, 0.22); accent = vec3(0.87, 0.67, 0.36);
   } else if (variant > 1.5 && variant < 2.5) {

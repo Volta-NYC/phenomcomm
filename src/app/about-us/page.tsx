@@ -9,8 +9,9 @@ export const metadata = pageMetadata(
 export default function AboutPage() {
   return (
     <>
-      <section className="page-hero page-hero-split container">
+      <section className="interior-hero-shell">
         <HeroAtmosphere variant="story" />
+        <div className="page-hero page-hero-split container">
         <div>
           <Eyebrow>Our story</Eyebrow>
           <h1>
@@ -38,6 +39,7 @@ export default function AboutPage() {
             <span>Paulette Cunningham, M.Ed.</span>
             <span>Founder & principal</span>
           </div>
+        </div>
         </div>
       </section>
       <div className="container stats-row" data-reveal>

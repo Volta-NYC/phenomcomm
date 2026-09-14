@@ -9,8 +9,9 @@ export const metadata = pageMetadata(
 export default function BookPage() {
   return (
     <>
-      <section className="book-hero container interior-hero">
+      <section className="interior-hero-shell">
         <HeroAtmosphere variant="book" />
+        <div className="book-hero container">
         <div className="book-stage">
           <span className="book-circle" aria-hidden="true" />
           <BookObject />
@@ -46,6 +47,7 @@ export default function BookPage() {
             <span>Published July 2, 2026</span>
             <span>PhenomComm</span>
           </div>
+        </div>
         </div>
       </section>
       <section className="sage-section">

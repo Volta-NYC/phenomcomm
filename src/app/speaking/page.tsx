@@ -9,8 +9,9 @@ export const metadata = pageMetadata(
 export default function SpeakingPage() {
   return (
     <>
-      <section className="container speaking-hero interior-hero">
+      <section className="interior-hero-shell">
         <HeroAtmosphere variant="speaking" />
+        <div className="container speaking-hero">
         <div className="speaking-intro">
           <div>
             <Eyebrow>Keynotes & workshops with Paulette Cunningham</Eyebrow>
@@ -40,6 +41,7 @@ export default function SpeakingPage() {
         <div className="photo-ribbon">
           <span>Real conversations. Practical tools. Intentional growth.</span>
           <span>Keynotes · Workshops · Training series</span>
+        </div>
         </div>
       </section>
       <section className="section container story-body">

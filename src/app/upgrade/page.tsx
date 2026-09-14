@@ -14,8 +14,9 @@ export const metadata: Metadata = {
 export default function UpgradePage() {
   return (
     <div className="upgrade-page">
-      <section className="upgrade-hero container interior-hero">
+      <section className="interior-hero-shell">
         <HeroAtmosphere variant="workbook" />
+        <div className="upgrade-hero container">
         <div>
           <Eyebrow>A little extra for your next chapter</Eyebrow>
           <h1>
@@ -52,6 +53,7 @@ export default function UpgradePage() {
             <span>2. Decide</span>
             <span>3. Match</span>
           </div>
+        </div>
         </div>
       </section>
       <section className="sage-section">

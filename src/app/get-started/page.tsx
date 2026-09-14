@@ -9,8 +9,9 @@ export const metadata = pageMetadata(
 export default function ContactPage() {
   return (
     <>
-      <section className="contact-page container interior-hero">
+      <section className="interior-hero-shell">
         <HeroAtmosphere variant="contact" />
+        <div className="contact-page container">
         <div className="contact-layout">
           <div>
             <Eyebrow>Good things start with a conversation</Eyebrow>
@@ -57,6 +58,7 @@ export default function ContactPage() {
             </Button>
             <p className="small-note">Choose a time that works for you on our booking calendar.</p>
           </div>
+        </div>
         </div>
       </section>
       <section className="cream-section">

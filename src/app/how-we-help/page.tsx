@@ -10,8 +10,9 @@ export const metadata = pageMetadata(
 export default function SolutionsPage() {
   return (
     <>
-      <section className="page-hero container">
+      <section className="interior-hero-shell">
         <HeroAtmosphere variant="help" />
+        <div className="page-hero container">
         <Eyebrow>Practical solutions. Human progress.</Eyebrow>
         <h1>
           Your people have potential.
@@ -25,6 +26,7 @@ export default function SolutionsPage() {
         <Button href={site.booking} external>
           Talk about your team
         </Button>
+        </div>
       </section>
       <div className="container">
         <nav className="service-jump-links" aria-label="On this page">
