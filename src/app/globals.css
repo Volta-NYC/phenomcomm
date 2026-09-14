@@ -27,12 +27,26 @@ html {
 }
 body {
   margin: 0;
-  background: var(--canvas);
+  background:
+    radial-gradient(circle at 0 16%, rgb(206 172 111 / 0.09), transparent 25rem),
+    radial-gradient(circle at 97% 72%, rgb(173 80 56 / 0.065), transparent 29rem),
+    var(--canvas);
   color: var(--ink);
   font-family: var(--font-sans), Arial, sans-serif;
   font-size: 16px;
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  pointer-events: none;
+  opacity: 0.035;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180' viewBox='0 0 180 180'%3E%3Cfilter id='grain'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.78' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23grain)' opacity='.8'/%3E%3C/svg%3E");
 }
 main {
   min-height: 60vh;
@@ -286,6 +300,22 @@ p {
   padding-top: 68px;
   padding-bottom: 70px;
   align-items: center;
+  position: relative;
+  isolation: isolate;
+  overflow: clip;
+}
+.hero-atmosphere {
+  position: absolute;
+  z-index: -1;
+  inset: -10% -8%;
+  width: 116%;
+  height: 120%;
+  pointer-events: none;
+  opacity: 0.86;
+}
+.hero-copy,
+.hero-visual {
+  position: relative;
 }
 .hero-copy {
   padding-block: 5px;

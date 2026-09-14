@@ -11,6 +11,7 @@ import {
   UpgradeMark,
 } from "@/lib/components/ui";
 import Framework from "@/lib/components/framework";
+import HeroAtmosphere from "@/lib/components/hero-atmosphere";
 import { pageMetadata, site, solutions, testimonials } from "@/lib/site";
 export const metadata = pageMetadata(
   "Talent development that works",
@@ -21,6 +22,7 @@ export default function HomePage() {
   return (
     <>
       <section className="home-hero container">
+        <HeroAtmosphere />
         <div className="hero-copy">
           <Eyebrow>People first. Performance follows.</Eyebrow>
           <h1>
