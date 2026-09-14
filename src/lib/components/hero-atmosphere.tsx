@@ -31,11 +31,11 @@ float noise(vec2 point) {
 
 float field(vec2 point) {
   float value = 0.0;
-  float amplitude = 0.54;
-  for (int i = 0; i < 4; i++) {
+  float amplitude = 0.58;
+  for (int i = 0; i < 5; i++) {
     value += amplitude * noise(point);
-    point = mat2(1.65, 1.18, -1.18, 1.65) * point;
-    amplitude *= 0.48;
+    point = mat2(1.57, 1.22, -1.22, 1.57) * point;
+    amplitude *= 0.5;
   }
   return value;
 }
@@ -45,22 +45,26 @@ void main() {
   vec2 aspect = vec2(resolution.x / resolution.y, 1.0);
   vec2 centered = (uv - 0.5) * aspect;
   vec2 cursor = (pointer - 0.5) * aspect;
-  float drift = time * 0.045;
-  float softField = field(centered * 3.1 + vec2(drift, -drift * 0.7));
-  float ripple = sin(length(centered - cursor * 0.5) * 15.0 - time * 0.55) * 0.5 + 0.5;
-  float focus = exp(-5.5 * length(centered - vec2(0.42, -0.06)));
-  float pointerGlow = exp(-9.0 * length(centered - cursor)) * 0.18;
+  float drift = time * 0.12;
+  vec2 flow = centered * 1.18;
+  float softField = field(flow + vec2(drift, -drift * 0.68) + field(flow * 1.7 - drift) * 0.56);
+  float secondaryField = field(flow * 1.9 + softField * 1.8 + vec2(-drift * 0.5, drift));
+  float pointerWave = sin(length(centered - cursor * 0.62) * 13.0 - time * 1.25) * 0.5 + 0.5;
+  float focus = exp(-3.9 * length(centered - vec2(0.38, -0.04)));
+  float pointerGlow = exp(-5.5 * length(centered - cursor)) * 0.26;
 
-  vec3 navy = vec3(0.11, 0.16, 0.26);
-  vec3 clay = vec3(0.68, 0.31, 0.22);
-  vec3 sage = vec3(0.73, 0.78, 0.67);
-  vec3 gold = vec3(0.81, 0.67, 0.40);
-  vec3 color = mix(navy, clay, smoothstep(0.46, 0.8, softField));
-  color = mix(color, sage, smoothstep(0.6, 0.94, softField + focus * 0.24) * 0.48);
-  color = mix(color, gold, (ripple * focus + pointerGlow) * 0.42);
+  vec3 paper = vec3(0.965, 0.945, 0.885);
+  vec3 cobalt = vec3(0.10, 0.31, 0.83);
+  vec3 coral = vec3(0.95, 0.31, 0.19);
+  vec3 mint = vec3(0.12, 0.64, 0.52);
+  vec3 color = mix(paper, cobalt, smoothstep(0.38, 0.76, softField) * 0.92);
+  color = mix(color, coral, smoothstep(0.52, 0.88, secondaryField) * 0.72);
+  color = mix(color, mint, smoothstep(0.66, 0.96, softField + secondaryField * 0.22) * 0.56);
+  color = mix(color, paper, pointerWave * focus * 0.16);
+  color += cobalt * pointerGlow * 0.2;
 
-  float edge = smoothstep(1.12, 0.25, length(centered * vec2(0.72, 1.0)));
-  float alpha = (0.12 + softField * 0.26 + focus * 0.14) * edge;
+  float edge = smoothstep(1.15, 0.16, length(centered * vec2(0.76, 1.0)));
+  float alpha = (0.18 + softField * 0.42 + focus * 0.2 + pointerGlow) * edge;
   gl_FragColor = vec4(color, alpha);
 }
 `;
@@ -124,8 +128,8 @@ export default function HeroAtmosphere() {
         element.height = height;
         gl.viewport(0, 0, width, height);
       }
-      pointer.x += (target.x - pointer.x) * 0.035;
-      pointer.y += (target.y - pointer.y) * 0.035;
+      pointer.x += (target.x - pointer.x) * 0.022;
+      pointer.y += (target.y - pointer.y) * 0.022;
       gl.clearColor(0, 0, 0, 0);
       gl.clear(gl.COLOR_BUFFER_BIT);
       gl.uniform2f(resolution, width, height);
@@ -159,7 +163,7 @@ export default function HeroAtmosphere() {
 
     observer.observe(element);
     resize.observe(element);
-    element.addEventListener("pointermove", move, { passive: true });
+    window.addEventListener("pointermove", move, { passive: true });
     document.addEventListener("visibilitychange", start);
     reducedMotion.addEventListener("change", start);
     start();
@@ -167,7 +171,7 @@ export default function HeroAtmosphere() {
       cancelAnimationFrame(frame);
       observer.disconnect();
       resize.disconnect();
-      element.removeEventListener("pointermove", move);
+      window.removeEventListener("pointermove", move);
       document.removeEventListener("visibilitychange", start);
       reducedMotion.removeEventListener("change", start);
       gl.deleteBuffer(buffer);
