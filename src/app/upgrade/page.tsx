@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Button, Eyebrow, SectionHeading, UpgradeMark } from "@/lib/components/ui";
+import HeroAtmosphere from "@/lib/components/hero-atmosphere";
 import WorkbookForm from "@/lib/components/workbook-form";
 import { pageMetadata, site } from "@/lib/site";
 export const metadata: Metadata = {
@@ -13,7 +14,8 @@ export const metadata: Metadata = {
 export default function UpgradePage() {
   return (
     <div className="upgrade-page">
-      <section className="upgrade-hero container">
+      <section className="upgrade-hero container interior-hero">
+        <HeroAtmosphere />
         <div>
           <Eyebrow>A little extra for your next chapter</Eyebrow>
           <h1>

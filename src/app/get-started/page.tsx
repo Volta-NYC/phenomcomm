@@ -1,4 +1,5 @@
 import { Arrow, Button, ContactCta, Eyebrow, SectionHeading } from "@/lib/components/ui";
+import HeroAtmosphere from "@/lib/components/hero-atmosphere";
 import { pageMetadata, site } from "@/lib/site";
 export const metadata = pageMetadata(
   "Let’s get started",
@@ -8,7 +9,8 @@ export const metadata = pageMetadata(
 export default function ContactPage() {
   return (
     <>
-      <section className="contact-page container">
+      <section className="contact-page container interior-hero">
+        <HeroAtmosphere />
         <div className="contact-layout">
           <div>
             <Eyebrow>Good things start with a conversation</Eyebrow>

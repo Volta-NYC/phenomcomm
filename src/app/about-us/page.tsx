@@ -1,4 +1,5 @@
 import { Button, ContactCta, Eyebrow, Photo, SectionHeading } from "@/lib/components/ui";
+import HeroAtmosphere from "@/lib/components/hero-atmosphere";
 import { pageMetadata, site, testimonials } from "@/lib/site";
 export const metadata = pageMetadata(
   "Our story",
@@ -9,6 +10,7 @@ export default function AboutPage() {
   return (
     <>
       <section className="page-hero page-hero-split container">
+        <HeroAtmosphere />
         <div>
           <Eyebrow>Our story</Eyebrow>
           <h1>

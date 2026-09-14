@@ -1,5 +1,6 @@
 import { Arrow, Button, ContactCta, Eyebrow, Photo, SectionHeading, ServiceIcon } from "@/lib/components/ui";
 import Framework from "@/lib/components/framework";
+import HeroAtmosphere from "@/lib/components/hero-atmosphere";
 import { pageMetadata, site, solutions } from "@/lib/site";
 export const metadata = pageMetadata(
   "How we help",
@@ -10,6 +11,7 @@ export default function SolutionsPage() {
   return (
     <>
       <section className="page-hero container">
+        <HeroAtmosphere />
         <Eyebrow>Practical solutions. Human progress.</Eyebrow>
         <h1>
           Your people have potential.

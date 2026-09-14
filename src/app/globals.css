@@ -93,7 +93,7 @@ main > section:not(.home-hero):not(.home-hero-shell):nth-child(even)::before {
     repeating-radial-gradient(ellipse at center, transparent 0 31px, rgb(173 80 56 / 0.055) 32px 33px, transparent 34px 62px);
   transform: rotate(24deg);
 }
-main > section:not(.home-hero):not(.home-hero-shell) > :not(.cta-circle) {
+main > section:not(.home-hero):not(.home-hero-shell) > :not(.cta-circle):not(.hero-atmosphere) {
   position: relative;
   z-index: 1;
 }
@@ -392,7 +392,7 @@ p {
   z-index: 1;
   overflow: visible;
 }
-.hero-atmosphere {
+.home-hero-shell > .hero-atmosphere {
   position: absolute;
   z-index: 0;
   inset: -12% -6vw;
@@ -1215,6 +1215,10 @@ p {
   font-size: clamp(32px, 3vw, 46px);
   line-height: 1.05;
 }
+.footer-cta {
+  width: min(100%, 450px);
+  justify-self: end;
+}
 .footer-cta-link {
   display: inline-flex;
   align-items: center;
@@ -1358,6 +1362,42 @@ p {
 }
 
 /* Interior pages share the same rhythm, with distinct compositions. */
+:is(.page-hero, .interior-hero) {
+  position: relative;
+  isolation: isolate;
+  overflow: clip;
+  background:
+    radial-gradient(ellipse 54% 100% at 89% 45%, rgb(117 48 98 / 0.12), transparent 74%),
+    radial-gradient(ellipse 38% 80% at 7% 86%, rgb(198 72 42 / 0.09), transparent 76%),
+    rgb(250 248 244 / 0.68);
+}
+:is(.page-hero, .interior-hero)::after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.22;
+  background-image:
+    repeating-linear-gradient(120deg, transparent 0 19px, rgb(29 41 66 / 0.09) 20px 21px, transparent 22px 41px),
+    radial-gradient(circle at 76% 35%, rgb(226 142 72 / 0.28) 0 2px, transparent 2.5px);
+  background-size: auto, 34px 34px;
+  mask-image: linear-gradient(90deg, transparent, black 35%, black 78%, transparent);
+}
+:is(.page-hero, .interior-hero) > :not(.hero-atmosphere) {
+  position: relative;
+  z-index: 1;
+}
+:is(.page-hero, .interior-hero) > .hero-atmosphere {
+  position: absolute;
+  z-index: 0;
+  inset: -14% -10%;
+  width: 120%;
+  height: 128%;
+  pointer-events: none;
+  opacity: 0.34;
+  filter: saturate(0.72) contrast(1.02);
+}
 .page-hero {
   padding-block: 56px 52px;
 }
@@ -2913,6 +2953,9 @@ p {
     grid-template-columns: 1fr;
     gap: 36px;
     padding-bottom: 43px;
+  }
+  .footer-cta {
+    justify-self: start;
   }
   .footer-brand {
     grid-column: auto;

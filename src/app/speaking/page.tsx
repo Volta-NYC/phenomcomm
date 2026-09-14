@@ -1,4 +1,5 @@
 import { Button, ContactCta, Eyebrow, Photo, SectionHeading } from "@/lib/components/ui";
+import HeroAtmosphere from "@/lib/components/hero-atmosphere";
 import { packages, pageMetadata, site } from "@/lib/site";
 export const metadata = pageMetadata(
   "Speaking & workshops",
@@ -8,7 +9,8 @@ export const metadata = pageMetadata(
 export default function SpeakingPage() {
   return (
     <>
-      <section className="container speaking-hero">
+      <section className="container speaking-hero interior-hero">
+        <HeroAtmosphere />
         <div className="speaking-intro">
           <div>
             <Eyebrow>Keynotes & workshops with Paulette Cunningham</Eyebrow>

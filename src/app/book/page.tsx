@@ -1,4 +1,5 @@
 import { BookObject, Button, ContactCta, Eyebrow, Photo, SectionHeading } from "@/lib/components/ui";
+import HeroAtmosphere from "@/lib/components/hero-atmosphere";
 import { pageMetadata, site } from "@/lib/site";
 export const metadata = pageMetadata(
   "Don’t Let Your Phone Upgrade Before You Do",
@@ -8,7 +9,8 @@ export const metadata = pageMetadata(
 export default function BookPage() {
   return (
     <>
-      <section className="book-hero container">
+      <section className="book-hero container interior-hero">
+        <HeroAtmosphere />
         <div className="book-stage">
           <span className="book-circle" aria-hidden="true" />
           <BookObject />
