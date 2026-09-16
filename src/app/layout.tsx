@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: { default: "PhenomComm | Talent development that works", template: "%s | PhenomComm" },
   description:
-    "Close the gap between knowing and doing. PhenomComm helps leaders, teams, and organizations build lasting performance through The Upgrade Framework™.",
+    "PhenomComm helps leaders, teams, and organizations turn knowledge into action and build lasting performance through The Upgrade Framework™.",
   openGraph: {
     type: "website",
     locale: "en_US",

@@ -160,18 +160,19 @@ test("Workbook API rejects malformed and cross-origin requests before provider c
   ).toBe(400);
 });
 
-test("WebGL renders, pauses, and respects reduced motion", async ({ page }) => {
+test("The framework uses the interlocking-rings graphic", async ({ page }) => {
   await page.goto("/");
   await page.locator(".sculpture").scrollIntoViewIfNeeded();
-  await expect(page.locator(".sculpture canvas")).toHaveClass("is-ready");
-  const pause = page.getByRole("button", { name: "Pause sculpture animation" });
-  await pause.click();
-  await expect(page.getByRole("button", { name: "Play sculpture animation" })).toHaveAttribute("aria-pressed", "true");
-  const first = await page.locator(".sculpture canvas").screenshot();
-  await page.waitForTimeout(200);
-  const second = await page.locator(".sculpture canvas").screenshot();
-  expect(first.equals(second)).toBe(true);
-  await page.emulateMedia({ reducedMotion: "reduce" });
-  await expect(page.locator(".motion-control")).toBeHidden();
-  await expect(page.locator(".reveal-pending")).toHaveCount(0);
+  await expect(page.locator('.sculpture img[src*="upgrade-framework-rings.png"]')).toBeVisible();
+  await expect(page.locator(".sculpture img")).toHaveAttribute("alt", "");
+});
+
+test("Home book offer can be dismissed and links to the book resources", async ({ page }) => {
+  await page.goto("/");
+  const dialog = page.getByRole("dialog", { name: "Don’t Let Your Phone Upgrade Before You Do." });
+  await expect(dialog).toBeVisible({ timeout: 2000 });
+  await expect(dialog.getByRole("link", { name: "Explore the book" })).toHaveAttribute("href", "/book");
+  await expect(dialog.getByRole("link", { name: "Get the companion workbook" })).toHaveAttribute("href", "/upgrade/");
+  await page.getByRole("button", { name: "Close book offer" }).click();
+  await expect(dialog).toBeHidden();
 });

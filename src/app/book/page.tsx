@@ -41,6 +41,9 @@ export default function BookPage() {
             <Button href={site.ebook} external variant="text">
               Read on Kindle
             </Button>
+            <Button href="/upgrade/" variant="outline">
+              Get the free companion workbook
+            </Button>
           </div>
           <div className="book-facts">
             <span>122 pages</span>

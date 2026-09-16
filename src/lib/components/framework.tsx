@@ -16,7 +16,7 @@ export default function Framework() {
           <p>
             Three connected drivers.
             <br />
-            One meaningful shift in performance.
+            One meaningful shift in results.
           </p>
           <GrowthSculpture />
         </div>
@@ -24,7 +24,7 @@ export default function Framework() {
           <p className="framework-intro">
             Your people already know better.
             <br />
-            Let’s help them <strong>do better.</strong>
+            Let’s help them <strong>perform consistently.</strong>
           </p>
           {pillars.map((pillar, index) => (
             <div className="pillar" key={pillar.name}>

@@ -11,6 +11,7 @@ import {
   UpgradeMark,
 } from "@/lib/components/ui";
 import Framework from "@/lib/components/framework";
+import BookPopup from "@/lib/components/book-popup";
 import HeroAtmosphere from "@/lib/components/hero-atmosphere";
 import { pageMetadata, site, solutions, testimonials } from "@/lib/site";
 export const metadata = pageMetadata(
@@ -21,6 +22,7 @@ export const metadata = pageMetadata(
 export default function HomePage() {
   return (
     <>
+      <BookPopup />
       <section className="home-hero-shell">
         <HeroAtmosphere variant="home" />
         <div className="home-hero container">
@@ -122,13 +124,13 @@ export default function HomePage() {
             <>
               Knowing isn’t the challenge.
               <br />
-              <em>Doing it consistently is.</em>
+              <em>Performing consistently is.</em>
             </>
           }
         >
           <p>
             Most teams don’t have a skill problem. They have a performance problem. We help turn good intentions into
-            the everyday behaviors that move your organization forward.
+            the everyday behaviors that strengthen accountability, team effectiveness, and execution.
           </p>
         </SectionHeading>
         <div className="services-grid">

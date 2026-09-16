@@ -88,13 +88,13 @@ export const solutions = [
     title: "Organizational development",
     short: "Change that outlasts the workshop.",
     description:
-      "Create lasting behavior change in how people think, communicate, and execute across your organization.",
+      "Create lasting behavior change in how people think, communicate, and execute across your organization, supporting retention and stronger customer experiences.",
     detail:
       "We look beyond individual skills to the culture, systems, and support surrounding your people. Customized engagements bring thinking, skills, and environment together to help new behaviors take hold.",
     outcomes: [
       "An environment that supports development",
       "Training connected to real work",
-      "Sustainable performance improvement",
+      "Sustainable performance improvement and retention",
     ],
     icon: "organization",
   },

@@ -15,13 +15,13 @@ export default function SolutionsPage() {
         <div className="page-hero container">
         <Eyebrow>Practical solutions. Human progress.</Eyebrow>
         <h1>
-          Your people have potential.
+          Your people know what to do.
           <br />
-          <em>Let’s put it into practice.</em>
+          <em>Let’s help them do it consistently.</em>
         </h1>
         <p className="page-intro">
-          The challenge isn’t knowing what to do. It’s doing it consistently, especially when the pressure is real.
-          That’s where we come in.
+          The challenge isn’t knowing what to do. It’s translating learning into consistent performance, especially
+          when the pressure is real. That’s where we come in.
         </p>
         <Button href={site.booking} external>
           Talk about your team
@@ -115,8 +115,8 @@ export default function SolutionsPage() {
                 to the frontline
               </h3>
               <p>
-                Executive coaching and frontline service training help connect organizational vision with everyday
-                execution.
+                Executive coaching and frontline service training help connect organizational vision with leadership
+                readiness, customer experience, and everyday execution.
               </p>
             </div>
             <div className="result-item">

@@ -100,7 +100,7 @@ export function ContactCta({
       starts with <em>your people.</em>
     </>
   ),
-  description = "Let’s talk about where you are, where you want to be, and how we can help close the gap.",
+  description = "Let’s talk about where you are, where you want to be, and how we can move from insight to execution.",
 }: {
   title?: ReactNode;
   description?: string;
