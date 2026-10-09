@@ -40,7 +40,7 @@ export const pillars = [
     name: "Upgrade Skills",
     topic: "Communication · Leadership · Execution",
     description:
-      "Turn knowledge into consistent action. Practice the communication, leadership, and execution that hold up under real pressure.",
+      "Turn knowledge into consistent action. Practice the communication, leadership, and performance that hold up under real pressure.",
     short: "Make knowing become doing.",
     color: "sage",
   },

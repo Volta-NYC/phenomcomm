@@ -147,7 +147,7 @@ export default function SolutionsPage() {
           </Button>
         </div>
       </section>
-      <ContactCta />
+      <ContactCta description="Let’s talk about where you are, where you want to be, and how we can convert capability into results." />
     </>
   );
 }

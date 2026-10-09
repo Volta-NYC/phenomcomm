@@ -123,7 +123,7 @@ export default function SpeakingPage() {
             “
           </span>
           <blockquote>
-            We brought Paulette to present ‘Charge Ahead!’ Institute-goers found her AMAZING, empowering, phenomenal,
+            We brought Paulette to present ‘Don’t Let Your Phone…’ Institute-goers found her AMAZING, empowering, phenomenal,
             positive, uplifting, motivating, and more.
           </blockquote>
           <div className="quote-credit">

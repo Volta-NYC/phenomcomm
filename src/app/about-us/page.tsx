@@ -84,7 +84,7 @@ export default function AboutPage() {
             and shifts, the goal stays the same: consistent performance when it matters.
           </p>
           <p>
-            Today, PhenomComm helps leaders and teams move from insight to execution through The Upgrade Framework™,
+            Today, PhenomComm helps leaders and teams translate learning into performance through The Upgrade Framework™,
             the methodology behind Paulette’s keynotes, workshops, coaching, and book.
           </p>
           <Button href="/speaking" variant="text">

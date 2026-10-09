@@ -130,7 +130,7 @@ export default function HomePage() {
         >
           <p>
             Most teams don’t have a skill problem. They have a performance problem. We help turn good intentions into
-            the everyday behaviors that strengthen accountability, team effectiveness, and execution.
+            the everyday behaviors that strengthen accountability, team effectiveness, and delivery.
           </p>
         </SectionHeading>
         <div className="services-grid">

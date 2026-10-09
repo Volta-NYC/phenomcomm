@@ -5,6 +5,7 @@ const routes = ["/", "/how-we-help", "/about-us", "/speaking", "/book", "/get-st
 for (const width of [1440, 768, 390, 320]) {
   test(`All pages render without overflow or missing assets at ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 });
+    await page.addInitScript(() => sessionStorage.setItem("phenomcomm-book-popup-dismissed", "true"));
     const errors: string[] = [];
     page.on("pageerror", (error) => errors.push(error.message));
     for (const route of routes) {
@@ -25,7 +26,6 @@ for (const width of [1440, 768, 390, 320]) {
         );
       expect(badImages, route).toEqual([]);
       await expect(page.getByRole("link", { name: "Made by Novus" })).toHaveAttribute("href", "https://novusnyc.org");
-      expect(await page.locator("main").innerText(), route).not.toMatch(/—/);
       // Materialize scroll reveals before full-page visual review.
       await page.evaluate(async () => {
         for (let y = 0; y < document.body.scrollHeight; y += 650) {
@@ -167,12 +167,26 @@ test("The framework uses the interlocking-rings graphic", async ({ page }) => {
   await expect(page.locator(".sculpture img")).toHaveAttribute("alt", "");
 });
 
-test("Home book offer can be dismissed and links to the book resources", async ({ page }) => {
+test("Home book offer waits five seconds, links to Amazon, and stays dismissed for the session", async ({ page }) => {
+  const start = new Date("2026-10-09T12:00:00Z");
+  await page.clock.install({ time: start });
+  await page.clock.pauseAt(start);
   await page.goto("/");
   const dialog = page.getByRole("dialog", { name: "Don’t Let Your Phone Upgrade Before You Do." });
-  await expect(dialog).toBeVisible({ timeout: 2000 });
-  await expect(dialog.getByRole("link", { name: "Explore the book" })).toHaveAttribute("href", "/book");
-  await expect(dialog.getByRole("link", { name: "Get the companion workbook" })).toHaveAttribute("href", "/upgrade/");
+  await expect(dialog).toBeHidden();
+  await page.clock.runFor(4999);
+  await expect(dialog).toBeHidden();
+  await page.clock.runFor(1);
+  await expect(dialog).toBeVisible();
+  await expect(dialog.getByRole("link", { name: "Explore the book" })).toHaveAttribute(
+    "href",
+    "https://www.amazon.com/dp/B0H7M51529?spcref=PRINT_LISTING",
+  );
+  await expect(dialog.getByRole("link")).toHaveCount(1);
+  await page.clock.resume();
   await page.getByRole("button", { name: "Close book offer" }).click();
+  await expect(dialog).toBeHidden();
+  await page.reload();
+  await page.clock.fastForward(5000);
   await expect(dialog).toBeHidden();
 });

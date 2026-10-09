@@ -5,7 +5,7 @@ import WorkbookForm from "@/lib/components/workbook-form";
 import { pageMetadata, site } from "@/lib/site";
 export const metadata: Metadata = {
   ...pageMetadata(
-    "Your companion workbook",
+    "Your Companion Workbook",
     "The Upgrade Framework™ Companion Workbook. Put Acknowledge, Decide, and Match into practice alongside Don’t Let Your Phone Upgrade Before You Do.",
     "/upgrade/",
   ),
@@ -27,8 +27,9 @@ export default function UpgradePage() {
             <em>You don’t.</em>
           </h1>
           <p className="page-intro">
-            Welcome, reader. This is your space to put The Upgrade Framework™ into practice. The companion workbook
-            helps you make the next step intentional.
+            Welcome, reader. This is your space to put The Upgrade Framework™ into practice. The Companion Workbook
+            walks you through the 3-step roadmap so you can intentionally upgrade your career, relationships, and life
+            before the world upgrades without you.
           </p>
           <Button href="#unlock">Get your free workbook</Button>
           <p className="mini-label">Pairs with the paperback & Kindle editions</p>
@@ -44,7 +45,7 @@ export default function UpgradePage() {
             <em>Your plan to grow.</em>
           </h2>
           <p>
-            Companion workbook
+            Companion Workbook
             <br />
             By Paulette Cunningham, M.Ed.
           </p>
@@ -62,17 +63,19 @@ export default function UpgradePage() {
             eyebrow="Inside your workbook"
             title={
               <>
-                The ideas are the beginning.
+                Three steps.
                 <br />
-                <em>This is where you begin.</em>
+                <em>One install.</em>
               </>
             }
-          />
+          >
+            <p>The upgrade won’t run itself. You’re in charge of the launch.</p>
+          </SectionHeading>
           <div className="steps-grid">
             <article className="step" data-reveal>
               <span className="step-number">1</span>
               <h3>Acknowledge</h3>
-              <p className="step-subtitle">Map your milestones</p>
+              <p className="step-subtitle">Map Your Milestones</p>
               <p>
                 Chart your Version Milestones and Growth Outcomes. Find the proof that you’ve upgraded before, and can
                 do it again.
@@ -81,7 +84,7 @@ export default function UpgradePage() {
             <article className="step" data-reveal>
               <span className="step-number">2</span>
               <h3>Decide</h3>
-              <p className="step-subtitle">Choose or lose</p>
+              <p className="step-subtitle">Choose or Lose</p>
               <p>
                 Name your Feature Selections, what serves you, and your Legacy Bugs, what doesn’t. Then choose
                 deliberately.
@@ -90,10 +93,10 @@ export default function UpgradePage() {
             <article className="step" data-reveal>
               <span className="step-number">3</span>
               <h3>Match</h3>
-              <p className="step-subtitle">Design your ecosystem</p>
+              <p className="step-subtitle">Design Your Ecosystem</p>
               <p>
-                Identify your Oak Tree Growers and Acorn Crushers. Make room for the people, places, and habits that
-                support your growth.
+                Identify your Oak Tree Growers and Acorn Crushers. Sort the people, places, and habits around you so
+                your environment fosters your upgrade.
               </p>
             </article>
           </div>
@@ -107,12 +110,16 @@ export default function UpgradePage() {
             <br />
             <em>Take the next step.</em>
           </h2>
-          <p>Enter your name and email to request the companion workbook and unlock your download.</p>
+          <p>Enter your name and email to request the Companion Workbook and unlock your download.</p>
+          <p>
+            This workbook follows the same Acknowledge → Decide → Match structure as <em>Don’t Let Your Phone Upgrade
+            Before You Do</em> and gives you space to actually do the exercises—not just read about them.
+          </p>
           <p>
             Use it alongside <strong>Don’t Let Your Phone Upgrade Before You Do</strong>, chapter by chapter, or work
             through it on its own if you already know the framework.
           </p>
-          <p className="small-note">Free PDF · Companion workbook · Version 1.0</p>
+          <p className="small-note">Free PDF · Companion Workbook · Version 1.0</p>
         </div>
         <WorkbookForm />
       </section>

@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { BookObject, Button } from "./ui";
+import { site } from "@/lib/site";
 
 const dismissedKey = "phenomcomm-book-popup-dismissed";
 
@@ -11,7 +12,7 @@ export default function BookPopup() {
 
   useEffect(() => {
     if (sessionStorage.getItem(dismissedKey)) return;
-    const timer = window.setTimeout(() => setOpen(true), 700);
+    const timer = window.setTimeout(() => setOpen(true), 5000);
     return () => window.clearTimeout(timer);
   }, []);
 
@@ -55,9 +56,8 @@ export default function BookPopup() {
           </h2>
           <p>A practical three-step framework for intentional growth in your career, relationships, and life.</p>
           <div className="book-popup-actions">
-            <Button href="/book">Explore the book</Button>
-            <Button href="/upgrade/" variant="text">
-              Get the companion workbook
+            <Button href={site.book} external>
+              Explore the book
             </Button>
           </div>
         </div>

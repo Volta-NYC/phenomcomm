@@ -4,7 +4,7 @@ export default function GrowthSculpture() {
   return (
     <figure
       className="sculpture"
-      aria-label="Three interlocking rings surrounding a pearl, representing connected drivers of growth."
+      aria-label="Three interlocking rings surrounding a clear crystal orb, representing connected drivers of growth."
     >
       <Image
         src="/images/upgrade-framework-rings.png"

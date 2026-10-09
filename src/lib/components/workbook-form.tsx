@@ -61,10 +61,10 @@ export default function WorkbookForm() {
           <Button href={site.workbook} download>
             Download your workbook
           </Button>
-          <p className="small-note">PDF · Companion workbook · Version 1.0</p>
+          <p className="small-note">PDF · Companion Workbook · Version 1.0</p>
         </div>
       ) : (
-        <form onSubmit={submit} noValidate aria-label="Get the companion workbook" aria-busy={pending}>
+        <form onSubmit={submit} noValidate aria-label="Get the Companion Workbook" aria-busy={pending}>
           <div className="field">
             <label htmlFor="workbook-name">
               Your name <span aria-hidden="true">*</span>
